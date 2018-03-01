@@ -20,42 +20,49 @@
     <!-- Diseno -->
     <link rel="stylesheet" href="../theme/vendor/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="../theme/vendor/font-awesome/css/font-awesome.min.css" type="text/css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,700">
-    <link rel="stylesheet" href="../theme/css/modern-business.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' type='text/css'>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' type='text/css'>
+    <link rel="stylesheet" href="../theme/css/clean-blog.min.css">
     <link rel="stylesheet" href="../theme/css/seacoahuila.css">
 </head>
 <body>
     <!-- Navegacion -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
         <div class="container">
             <a class="navbar-brand" href="../index.html">SEA Coahuila</a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                Menu
+                <i class="fa fa-bars"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="../category/comunicados.html">Comunicados</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../institucional/index.html">Institucional</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../transparencia/index.html">Transparencia</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../contacto/index.html">Contacto</a>
-                    </li>
+                    <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../category/comunicados.html">Comunicados</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../institucional/index.html">Institucional</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../transparencia/index.html">Transparencia</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../contacto/index.html">Contacto</a></li>
                 </ul>
             </div>
         </div>
     </nav>
     <!-- Contenido -->
+    <header class="masthead" style="background-image: url('../imagenes/comun.jpg')">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-10 mx-auto">
+                    <div class="site-heading">
+                        <h1>Acciones realizadas por contingencias</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
     <div class="container">
-        <h1 class="mt-4 mb-3">Acciones realizadas por contingencias</h1>
-        <hr>
-        <article>
-            <p>Fecha de última actualización: 27 de febrero de 2018</p>
+        <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto">
+                <article>
+                <p>Fecha de última actualización: 27 de febrero de 2018</p>
 <p><strong>La Secretaría Ejecutiva no ha participado en el auxilio de comunidades
 en emergencias o desastres. Sin embargo en caso de que se lleven a cabo
 estos se publicitarán, para dar cumplimiento al artículo 21 fracción
@@ -65,30 +72,43 @@ Personales para el Estado de Coahuila de Zaragoza.</strong></p>
 información es el C.P. Rosalío Medina Martínez, Director de Servicios
 Generales.</p>
 <p><a href="../transparencia/index.html">Regresar a Transparencia</a></p>
-        </article>
-        <hr>
+                </article>
+            </div>
+        </div>
     </div>
     <!-- Pie -->
-    <footer class="py-5 bg-dark">
+    <hr>
+    <footer>
         <div class="container">
-            <p class="m-0 text-center">
-                <a class="text-white" href="../index.html">Inicio</a>
-            </p>
-            <p class="m-0 text-center text-white">
-                Copyright &copy; 2017-2018 Secretaría Ejecutiva del Sistema Anticorrupción del Estado de Coahuila de Zaragoza.<br>
-                <small>
-                    Se otorga permiso para copiar y distribuir estos documentos.
-                    Protegidos por la licencia <a class="text-white" href="http://www.movimientolibre.com/licencias/gfdl-es.html">GFDL</a>.
-                    Sitio web elaborado con <a class="text-white" href="http://getpelican.com/">Pelican</a>,
-                    que es programado en <a class="text-white" href="http://python.org">Python</a>.
-                    Tema <a class="text-white" href="https://startbootstrap.com/template-overviews/modern-business/">Modern Business</a>
-                    creado por <a class="text-white" href="https://startbootstrap.com/">Start Bootstrap</a>.
-                </small>
-            </p>
+            <div class="row">
+                <div class="col-lg-8 col-md-10 mx-auto">
+                    <ul class="list-inline text-center">
+                        <li class="list-inline-item">
+                            <a href="https://github.com/seacoahuila/cpccoahuila.github.io">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted">
+                        Copyright &copy; 2017-2018
+                        Secretaría Ejecutiva del Sistema Anticorrupción del Estado de Coahuila de Zaragoza.
+                        Se otorga permiso para copiar y distribuir estos documentos.
+                        Protegidos por la licencia <a href="http://www.movimientolibre.com/licencias/gfdl-es.html">GFDL</a>.
+                        Sitio web elaborado con <a href="http://getpelican.com/">Pelican</a>,
+                        que es programado en <a href="http://python.org">Python</a>.
+                        Tema <a href="https://startbootstrap.com/template-overviews/clean-blog/">Clean Blog</a>
+                        creado por <a href="https://startbootstrap.com/">Start Bootstrap</a>.
+                    </p>
+                </div>
+            </div>
         </div>
     </footer>
     <!-- Javascript -->
     <script src="../theme/vendor/jquery/jquery.min.js"></script>
     <script src="../theme/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../theme/js/clean-blog.min.js"></script>
 </body>
 </html>

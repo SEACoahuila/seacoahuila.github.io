@@ -1,23 +1,70 @@
 /*
  * seacoahuila.css
  *
- * SB Modern business
+ * SB Clean Blog
  */
 
-/* Global */
-body      { font-family:'Roboto','Helvetica Neue',Arial,sans-serif; font-weight:300; }
 h1,
+header.masthead .page-heading h1,
+header.masthead .post-heading h1,
+header.masthead .site-heading h1          { font-size:40px; }
 h2,
+header.masthead .page-heading h2,
+header.masthead .post-heading h2,
+header.masthead .site-heading h2          { font-size:36px; }
 h3,
-h4,
-h5,
-h6        { font-family:'Roboto','Helvetica Neue',Arial,sans-serif; font-weight:700; }
-a         { color:#000000; }
-a:hover,
-a:focus   { color:#444444; }
-a:active,
-a:visited { color:#222222; }
+header.masthead .page-heading h3,
+header.masthead .post-heading h3,
+header.masthead .site-heading h3          { font-size:28px; }
+header.masthead .post-heading .subheading { font-size:20px }
 
-/* Navegacion */
-.navbar-dark .navbar-brand { font-weight:700; }
-.navbar-dark .navbar-nav .nav-link { color: rgba(255,255,255,0.8); }
+.post-preview h2.post-title    { font-size:32px; }
+.post-preview h3.post-subtitle { font-size:20px }
+
+dl, ol, ul { margin-bottom:1.5em; }
+
+@media only screen and (max-width: 800px) {
+  h1,
+  header.masthead .page-heading h1,
+  header.masthead .post-heading h1,
+  header.masthead .site-heading h1          { font-size: 32px; }
+  h2,
+  header.masthead .page-heading h2,
+  header.masthead .post-heading h2,
+  header.masthead .site-heading h2          { font-size: 28px; }
+  h3,
+  header.masthead .page-heading h3,
+  header.masthead .post-heading h3,
+  header.masthead .site-heading h3          { font-size: 24px; }
+  header.masthead .post-heading .subheading { font-size: 16px; }
+
+  .post-preview h2.post-title    { font-size:28px; }
+  .post-preview h3.post-subtitle { font-size:16px }
+
+  p,
+  ul li,
+  ol li { font-size: 16px; }
+}
+
+@media only screen and (max-width: 480px) {
+  h1,
+  header.masthead .page-heading h1,
+  header.masthead .post-heading h1,
+  header.masthead .site-heading h1          { font-size: 24px; }
+  h2,
+  header.masthead .page-heading h2,
+  header.masthead .post-heading h2,
+  header.masthead .site-heading h2          { font-size: 20px; }
+  h3,
+  header.masthead .page-heading h3,
+  header.masthead .post-heading h3,
+  header.masthead .site-heading h3          { font-size: 16px; }
+  header.masthead .post-heading .subheading { font-size: 12px; }
+
+  .post-preview h2.post-title    { font-size:20px; }
+  .post-preview h3.post-subtitle { font-size:14px }
+
+  p,
+  ol li,
+  ul li { font-size: 15px; }
+}
