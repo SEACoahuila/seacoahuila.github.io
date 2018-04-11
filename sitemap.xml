@@ -5,7 +5,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://www.seacoahuila.org.mx/</loc>
-<lastmod>2018-04-09T23:27:16-00:00</lastmod>
+<lastmod>2018-04-11T16:37:02-00:00</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -895,6 +895,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://www.seacoahuila.org.mx/comunicados/2018-017-presentacion-candidatura-transparente/</loc>
 <lastmod>2018-12-31T23:59:00-06:00</lastmod>
+<changefreq>always</changefreq>
+<priority>1</priority>
+</url>
+
+<url>
+<loc>http://www.seacoahuila.org.mx/comunicados/2018-016-capacitacion-icai-sipot/</loc>
+<lastmod>2018-04-06T15:05:00-05:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
