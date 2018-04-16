@@ -5,7 +5,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://www.seacoahuila.org.mx/</loc>
-<lastmod>2018-04-13T17:01:27-00:00</lastmod>
+<lastmod>2018-04-16T13:06:05-00:00</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -816,8 +816,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>http://www.seacoahuila.org.mx/licencias/licencias/fdl/</loc>
-<lastmod>2018-03-15T12:20:00-06:00</lastmod>
+<loc>http://www.seacoahuila.org.mx/general/licencias/fdl/</loc>
+<lastmod>2018-04-16T11:00:00-05:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -830,15 +830,15 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>http://www.seacoahuila.org.mx/licencias/licencias/gpl/</loc>
-<lastmod>2018-03-15T12:20:00-06:00</lastmod>
+<loc>http://www.seacoahuila.org.mx/general/licencias/gpl/</loc>
+<lastmod>2018-04-16T11:00:00-05:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://www.seacoahuila.org.mx/licencias/terminos/terminos-uso-informacion/</loc>
-<lastmod>2018-03-15T12:40:00-06:00</lastmod>
+<loc>http://www.seacoahuila.org.mx/general/terminos/informacion/</loc>
+<lastmod>2018-04-16T11:00:00-05:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -872,8 +872,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>http://www.seacoahuila.org.mx/licencias/terminos/terminos-uso-sitio/</loc>
-<lastmod>2018-03-15T12:40:00-06:00</lastmod>
+<loc>http://www.seacoahuila.org.mx/general/terminos/sitio-web/</loc>
+<lastmod>2018-04-16T11:00:00-05:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -888,6 +888,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://www.seacoahuila.org.mx/secretaria-ejecutiva/institucional/transparencia/</loc>
 <lastmod>2018-03-08T12:13:00-06:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://www.seacoahuila.org.mx/general/anuncios/vacantes/</loc>
+<lastmod>2018-04-16T13:06:00-05:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
