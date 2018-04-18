@@ -5,7 +5,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://www.seacoahuila.org.mx/</loc>
-<lastmod>2018-04-18T12:57:41-00:00</lastmod>
+<lastmod>2018-04-18T14:36:34-00:00</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -907,6 +907,20 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>http://www.seacoahuila.org.mx/comunicados/2018-04-13-taller-icai-sipot-pnt/</loc>
+<lastmod>2018-04-13T13:40:00-05:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>1</priority>
+</url>
+
+<url>
+<loc>http://www.seacoahuila.org.mx/comunicados/2018-04-12-planeacion-estrategica-taller-2/</loc>
+<lastmod>2018-04-12T23:59:00-05:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>1</priority>
+</url>
+
+<url>
 <loc>http://www.seacoahuila.org.mx/comunicados/2018-04-09-presentacion-candidatura-transparente/</loc>
 <lastmod>2018-04-09T13:59:00-05:00</lastmod>
 <changefreq>daily</changefreq>
@@ -930,6 +944,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://www.seacoahuila.org.mx/comunicados/2018-04-02-segunda-sesion-ordinaria/</loc>
 <lastmod>2018-04-02T15:25:00-05:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>1</priority>
+</url>
+
+<url>
+<loc>http://www.seacoahuila.org.mx/comunicados/2018-03-27-planeacion-estrategica-taller-1/</loc>
+<lastmod>2018-03-27T23:59:00-06:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>1</priority>
 </url>
@@ -1061,43 +1082,43 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>http://www.seacoahuila.org.mx/tag/presentaciones.html</loc>
-<lastmod>2018-04-09T13:59:00-06:37</lastmod>
-<changefreq>hourly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
 <loc>http://www.seacoahuila.org.mx/tag/capacitaciones.html</loc>
-<lastmod>2018-04-06T15:05:00-06:37</lastmod>
-<changefreq>hourly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>http://www.seacoahuila.org.mx/tag/sesiones.html</loc>
-<lastmod>2018-04-02T15:25:00-06:37</lastmod>
+<lastmod>2018-04-13T13:40:00-06:37</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://www.seacoahuila.org.mx/tag/comision-ejecutiva.html</loc>
-<lastmod>2018-04-02T15:25:00-06:37</lastmod>
+<lastmod>2018-04-13T13:40:00-06:37</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://www.seacoahuila.org.mx/tag/consejo-de-participacion-ciudadana.html</loc>
-<lastmod>2018-02-19T10:50:00-06:37</lastmod>
+<lastmod>2018-04-13T13:40:00-06:37</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://www.seacoahuila.org.mx/tag/organo-de-gobierno.html</loc>
-<lastmod>2018-01-22T15:10:00-06:37</lastmod>
+<lastmod>2018-04-13T13:40:00-06:37</lastmod>
+<changefreq>hourly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://www.seacoahuila.org.mx/tag/presentaciones.html</loc>
+<lastmod>2018-04-13T13:40:00-06:37</lastmod>
+<changefreq>hourly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://www.seacoahuila.org.mx/tag/sesiones.html</loc>
+<lastmod>2018-04-13T13:40:00-06:37</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
