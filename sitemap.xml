@@ -5,7 +5,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://www.seacoahuila.org.mx/</loc>
-<lastmod>2018-04-17T21:48:49-00:00</lastmod>
+<lastmod>2018-04-18T12:57:41-00:00</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -902,146 +902,202 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://www.seacoahuila.org.mx/comunicados/2018-04-13-reunion-tribunal-superior-justicia-saltillo/</loc>
 <lastmod>2018-04-13T16:59:00-05:00</lastmod>
-<changefreq>always</changefreq>
+<changefreq>daily</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
 <loc>http://www.seacoahuila.org.mx/comunicados/2018-04-09-presentacion-candidatura-transparente/</loc>
 <lastmod>2018-04-09T13:59:00-05:00</lastmod>
-<changefreq>always</changefreq>
+<changefreq>daily</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
 <loc>http://www.seacoahuila.org.mx/comunicados/2018-04-06-capacitacion-icai-sipot-pnt/</loc>
 <lastmod>2018-04-06T15:05:00-05:00</lastmod>
-<changefreq>always</changefreq>
+<changefreq>daily</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
 <loc>http://www.seacoahuila.org.mx/comunicados/2018-04-03-reunion-union-organismos-empresariales-coahuila-sureste/</loc>
 <lastmod>2018-04-03T17:25:00-05:00</lastmod>
-<changefreq>always</changefreq>
+<changefreq>daily</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
 <loc>http://www.seacoahuila.org.mx/comunicados/2018-04-02-segunda-sesion-ordinaria/</loc>
 <lastmod>2018-04-02T15:25:00-05:00</lastmod>
-<changefreq>always</changefreq>
+<changefreq>daily</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
 <loc>http://www.seacoahuila.org.mx/comunicados/2018-03-22-foro-fiscalia-consulta-ciudadana/</loc>
 <lastmod>2018-03-22T18:50:00-06:00</lastmod>
-<changefreq>always</changefreq>
+<changefreq>daily</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
 <loc>http://www.seacoahuila.org.mx/comunicados/2018-03-22-foro-reflexiones-desafios/</loc>
 <lastmod>2018-03-22T15:50:00-06:00</lastmod>
-<changefreq>always</changefreq>
+<changefreq>daily</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
 <loc>http://www.seacoahuila.org.mx/comunicados/2018-03-16-presentacion-tesis-efectos-corrupcion-crecimiento-mexico/</loc>
 <lastmod>2018-03-16T18:20:00-06:00</lastmod>
-<changefreq>always</changefreq>
+<changefreq>daily</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
 <loc>http://www.seacoahuila.org.mx/comunicados/2018-03-15-segunda-sesion-extraordinaria-comision-ejecutiva/</loc>
 <lastmod>2018-03-15T19:50:00-06:00</lastmod>
-<changefreq>always</changefreq>
+<changefreq>daily</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
 <loc>http://www.seacoahuila.org.mx/comunicados/2018-03-15-sesion-comite-coordinador/</loc>
 <lastmod>2018-03-15T17:45:00-06:00</lastmod>
-<changefreq>always</changefreq>
+<changefreq>daily</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
 <loc>http://www.seacoahuila.org.mx/comunicados/2018-03-12-reunion-tribunal-justicia-administrativa/</loc>
 <lastmod>2018-03-12T11:35:00-06:00</lastmod>
-<changefreq>always</changefreq>
+<changefreq>daily</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
 <loc>http://www.seacoahuila.org.mx/comunicados/2018-02-28-reunion-auditoria-superior-estado/</loc>
 <lastmod>2018-02-28T12:30:00-06:00</lastmod>
-<changefreq>always</changefreq>
+<changefreq>daily</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
 <loc>http://www.seacoahuila.org.mx/comunicados/2018-02-27-primera-sesion-extraordinaria-comision-ejecutiva/</loc>
 <lastmod>2018-02-27T11:50:00-06:00</lastmod>
-<changefreq>always</changefreq>
+<changefreq>daily</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
 <loc>http://www.seacoahuila.org.mx/comunicados/2018-02-19-reunion-uaaan/</loc>
 <lastmod>2018-02-19T10:50:00-06:00</lastmod>
-<changefreq>always</changefreq>
+<changefreq>daily</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
 <loc>http://www.seacoahuila.org.mx/comunicados/2018-02-01-reunion-cise-uadec/</loc>
 <lastmod>2018-02-01T15:20:00-06:00</lastmod>
-<changefreq>always</changefreq>
+<changefreq>daily</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
 <loc>http://www.seacoahuila.org.mx/comunicados/2018-01-30-primera-sesion-ordinaria/</loc>
 <lastmod>2018-01-30T09:10:00-06:00</lastmod>
-<changefreq>always</changefreq>
+<changefreq>daily</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
 <loc>http://www.seacoahuila.org.mx/comunicados/2018-01-22-reunion-pc29/</loc>
 <lastmod>2018-01-22T16:30:00-06:00</lastmod>
-<changefreq>always</changefreq>
+<changefreq>daily</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
 <loc>http://www.seacoahuila.org.mx/comunicados/2018-01-22-sesion-ordinaria-organo-de-gobierno/</loc>
 <lastmod>2018-01-22T15:10:00-06:00</lastmod>
-<changefreq>always</changefreq>
+<changefreq>daily</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
 <loc>http://www.seacoahuila.org.mx/comunicados/2017-12-14-primera-sesion-ordinaria/</loc>
 <lastmod>2017-12-14T11:10:00-06:00</lastmod>
-<changefreq>always</changefreq>
+<changefreq>daily</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
 <loc>http://www.seacoahuila.org.mx/comunicados/2017-12-14-instala-comision-ejecutiva/</loc>
 <lastmod>2017-12-14T09:10:00-06:00</lastmod>
-<changefreq>always</changefreq>
+<changefreq>daily</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
 <loc>http://www.seacoahuila.org.mx/category/comunicados.html</loc>
 <lastmod>2018-04-13T16:59:00-06:37</lastmod>
+<changefreq>hourly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://www.seacoahuila.org.mx/tag/reuniones.html</loc>
+<lastmod>2018-04-13T16:59:00-06:37</lastmod>
+<changefreq>hourly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://www.seacoahuila.org.mx/tag/comite-coordinador.html</loc>
+<lastmod>2018-04-13T16:59:00-06:37</lastmod>
+<changefreq>hourly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://www.seacoahuila.org.mx/tag/presentaciones.html</loc>
+<lastmod>2018-04-09T13:59:00-06:37</lastmod>
+<changefreq>hourly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://www.seacoahuila.org.mx/tag/capacitaciones.html</loc>
+<lastmod>2018-04-06T15:05:00-06:37</lastmod>
+<changefreq>hourly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://www.seacoahuila.org.mx/tag/sesiones.html</loc>
+<lastmod>2018-04-02T15:25:00-06:37</lastmod>
+<changefreq>hourly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://www.seacoahuila.org.mx/tag/comision-ejecutiva.html</loc>
+<lastmod>2018-04-02T15:25:00-06:37</lastmod>
+<changefreq>hourly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://www.seacoahuila.org.mx/tag/consejo-de-participacion-ciudadana.html</loc>
+<lastmod>2018-02-19T10:50:00-06:37</lastmod>
+<changefreq>hourly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://www.seacoahuila.org.mx/tag/organo-de-gobierno.html</loc>
+<lastmod>2018-01-22T15:10:00-06:37</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
