@@ -18,10 +18,10 @@ a:focus    { color:#444444; }
 a:active,
 a:visited  { color:#000000; }
 strong     { font-family:'Roboto','Helvetica Neue',Arial,sans-serif; font-weight:700; }
-blockquote { font-size:1.5em; font-style:italic; }
+blockquote { font-family:'Roboto','Helvetica Neue',Arial,sans-serif; font-weight:300; font-size:1.5em; }
 
 /* Navegacion */
-.navbar-dark .navbar-brand { font-weight:700; }
+.navbar-dark .navbar-brand         { font-weight:700; }
 .navbar-dark .navbar-nav .nav-link { color: rgba(255,255,255,0.8); }
 
 /* Paginacion */
@@ -35,7 +35,7 @@ a.page-link:visited  { color:#000000; }
 .article-date { color:#888; font-size:0.8em; }
 
 /* Pie */
-.footer-fa            { font-size:48px; }
+.footer-fa            { font-size:2em; }
 .footer-text          { color:#AAAAAA }
 a.footer-link         { color:#DDDDDD }
 a.footer-link:hover,
