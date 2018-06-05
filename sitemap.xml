@@ -5,7 +5,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://www.seacoahuila.org.mx/</loc>
-<lastmod>2018-05-28T21:27:43-00:00</lastmod>
+<lastmod>2018-06-05T12:25:16-00:00</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -417,6 +417,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>http://www.seacoahuila.org.mx/secretaria-ejecutiva/institucional/capacitacion-y-difusion/</loc>
+<lastmod>2018-06-05T09:40:00-05:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>http://www.seacoahuila.org.mx/cpc/secretario-tecnico/cedulas-evaluacion/</loc>
 <lastmod>2018-01-07T15:00:00-06:00</lastmod>
 <changefreq>daily</changefreq>
@@ -452,7 +459,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>http://www.seacoahuila.org.mx/general/licencias/fdl/</loc>
+<loc>http://www.seacoahuila.org.mx/general/terminos/fdl/</loc>
 <lastmod>2018-04-16T11:00:00-05:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
@@ -466,7 +473,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>http://www.seacoahuila.org.mx/general/licencias/gpl/</loc>
+<loc>http://www.seacoahuila.org.mx/general/terminos/gpl/</loc>
 <lastmod>2018-04-16T11:00:00-05:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
@@ -526,6 +533,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <lastmod>2018-05-21T13:33:00-05:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://www.seacoahuila.org.mx/comunicados/2018-05-31-capacitacion-difusion-sea-region-norte/</loc>
+<lastmod>2018-06-05T12:00:00-05:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>1</priority>
 </url>
 
 <url>
@@ -747,35 +761,42 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://www.seacoahuila.org.mx/category/comunicados.html</loc>
-<lastmod>2018-05-28T20:38:00-06:37</lastmod>
+<lastmod>2018-06-05T12:00:00-06:37</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://www.seacoahuila.org.mx/tag/capacitaciones.html</loc>
-<lastmod>2018-05-28T20:38:00-06:37</lastmod>
+<lastmod>2018-06-05T12:00:00-06:37</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://www.seacoahuila.org.mx/tag/comite-coordinador.html</loc>
-<lastmod>2018-05-28T20:38:00-06:37</lastmod>
+<lastmod>2018-06-05T12:00:00-06:37</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://www.seacoahuila.org.mx/tag/consejo-de-participacion-ciudadana.html</loc>
-<lastmod>2018-05-28T20:38:00-06:37</lastmod>
+<lastmod>2018-06-05T12:00:00-06:37</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://www.seacoahuila.org.mx/tag/presentaciones.html</loc>
-<lastmod>2018-05-28T20:38:00-06:37</lastmod>
+<lastmod>2018-06-05T12:00:00-06:37</lastmod>
+<changefreq>hourly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://www.seacoahuila.org.mx/tag/secretaria-ejecutiva.html</loc>
+<lastmod>2018-06-05T12:00:00-06:37</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -790,13 +811,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://www.seacoahuila.org.mx/tag/comision-ejecutiva.html</loc>
 <lastmod>2018-05-24T18:40:00-06:37</lastmod>
-<changefreq>hourly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>http://www.seacoahuila.org.mx/tag/secretaria-ejecutiva.html</loc>
-<lastmod>2018-05-21T18:36:00-06:37</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
