@@ -12,12 +12,12 @@ h3,
 h4,
 h5,
 h6         { font-family:'Roboto','Helvetica Neue',Arial,sans-serif; font-weight:700; }
-a          { color:#224422; font-weight:400; }
+a          { color:#224422; font-weight:500; }
 a:hover,
 a:focus    { color:#882222; text-decoration:underline; }
 a:active,
 a:visited  { color:#224422; }
-strong     { font-family:'Roboto','Helvetica Neue',Arial,sans-serif; font-weight:700; }
+strong     { font-family:'Roboto','Helvetica Neue',Arial,sans-serif; font-weight:500; }
 blockquote { font-family:'Roboto','Helvetica Neue',Arial,sans-serif; font-weight:300; font-size:1.5em; }
 
 /* Navigation */
