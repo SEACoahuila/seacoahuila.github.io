@@ -5,7 +5,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://www.seacoahuila.org.mx/</loc>
-<lastmod>2018-06-13T11:28:49-00:00</lastmod>
+<lastmod>2018-06-15T14:07:43-00:00</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -47,7 +47,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://www.seacoahuila.org.mx/secretaria-ejecutiva/transparencia/art-21-03-directorio/</loc>
-<lastmod>2018-05-28T14:29:00-05:00</lastmod>
+<lastmod>2018-06-15T14:00:00-05:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -166,7 +166,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://www.seacoahuila.org.mx/secretaria-ejecutiva/transparencia/art-21-20-presupuesto-asignado/</loc>
-<lastmod>2018-05-28T14:29:00-05:00</lastmod>
+<lastmod>2018-06-15T14:00:00-05:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -201,7 +201,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://www.seacoahuila.org.mx/secretaria-ejecutiva/transparencia/art-21-25-informes-financieros-y-cuenta-publica/</loc>
-<lastmod>2018-05-28T14:29:00-05:00</lastmod>
+<lastmod>2018-06-15T14:00:00-05:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -557,6 +557,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>http://www.seacoahuila.org.mx/comunicados/2018-06-12-reunion-comite-coordinador-organo-gobierno/</loc>
+<lastmod>2018-06-15T13:40:00-05:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>1</priority>
+</url>
+
+<url>
 <loc>http://www.seacoahuila.org.mx/comunicados/2018-06-07-capacitacion-difusion-sea-region-carbonifera/</loc>
 <lastmod>2018-06-12T12:54:00-05:00</lastmod>
 <changefreq>daily</changefreq>
@@ -803,20 +810,41 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://www.seacoahuila.org.mx/category/comunicados.html</loc>
-<lastmod>2018-06-12T12:54:00-06:37</lastmod>
-<changefreq>hourly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>http://www.seacoahuila.org.mx/tag/capacitaciones.html</loc>
-<lastmod>2018-06-12T12:54:00-06:37</lastmod>
+<lastmod>2018-06-15T13:40:00-06:37</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://www.seacoahuila.org.mx/tag/comite-coordinador.html</loc>
+<lastmod>2018-06-15T13:40:00-06:37</lastmod>
+<changefreq>hourly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://www.seacoahuila.org.mx/tag/organo-de-gobierno.html</loc>
+<lastmod>2018-06-15T13:40:00-06:37</lastmod>
+<changefreq>hourly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://www.seacoahuila.org.mx/tag/reuniones.html</loc>
+<lastmod>2018-06-15T13:40:00-06:37</lastmod>
+<changefreq>hourly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://www.seacoahuila.org.mx/tag/secretaria-ejecutiva.html</loc>
+<lastmod>2018-06-15T13:40:00-06:37</lastmod>
+<changefreq>hourly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://www.seacoahuila.org.mx/tag/capacitaciones.html</loc>
 <lastmod>2018-06-12T12:54:00-06:37</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
@@ -837,13 +865,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>http://www.seacoahuila.org.mx/tag/secretaria-ejecutiva.html</loc>
-<lastmod>2018-06-12T12:54:00-06:37</lastmod>
-<changefreq>hourly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
 <loc>http://www.seacoahuila.org.mx/tag/sesiones.html</loc>
 <lastmod>2018-05-24T18:40:00-06:37</lastmod>
 <changefreq>hourly</changefreq>
@@ -853,20 +874,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://www.seacoahuila.org.mx/tag/comision-ejecutiva.html</loc>
 <lastmod>2018-05-24T18:40:00-06:37</lastmod>
-<changefreq>hourly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>http://www.seacoahuila.org.mx/tag/reuniones.html</loc>
-<lastmod>2018-05-07T11:30:00-06:37</lastmod>
-<changefreq>hourly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>http://www.seacoahuila.org.mx/tag/organo-de-gobierno.html</loc>
-<lastmod>2018-04-27T17:25:00-06:37</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
