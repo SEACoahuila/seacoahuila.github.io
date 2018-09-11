@@ -25,30 +25,30 @@ blockquote { font-family:'Roboto','Helvetica Neue',Arial,sans-serif; font-weight
 .navbar-dark .navbar-nav .nav-link { color: rgba(255,255,255,0.8); }
 
 /* Header */
-.header-content { text-align:center; min-height:120px; }
-.header-text    { margin:auto; vertical-align:middle; padding:44px; }
+.header-content           { text-align:center; min-height:120px; }
+.header-text              { margin:auto; vertical-align:middle; padding:44px; }
 
 /* Index */
-.index-content  { margin:4px 0; }
+.index-content            { margin:4px 0; }
 
 /* Article */
-.article-date { color:#888; font-size:0.8em; }
+.article-date             { color:#888; font-size:0.8em; }
 
 /* Pagination */
-a.page-link          { color:#000000; }
+a.page-link               { color:#000000; }
 a.page-link:hover,
-a.page-link:focus    { color:#444444; }
+a.page-link:focus         { color:#444444; }
 a.page-link:active,
-a.page-link:visited  { color:#000000; }
+a.page-link:visited       { color:#000000; }
 
 /* Footer */
-.footer-fa            { font-size:3em; }
-.footer-text          { color:#AAAAAA; }
-a.footer-link         { color:#DDDDDD; }
+.footer-fa                { font-size:3em; }
+.footer-text              { color:#AAAAAA; }
+a.footer-link             { color:#DDDDDD; }
 a.footer-link:hover,
-a.footer-link:focus   { color:#FFFFFF; }
+a.footer-link:focus       { color:#FFFFFF; }
 a.footer-link:active,
-a.footer-link:visited { color:#DDDDDD; }
+a.footer-link:visited     { color:#DDDDDD; }
 
 /* Colors */
 .sea-gold                 { color:#BCA571; }
@@ -66,3 +66,22 @@ a.sea-footer-link:visited { color:#F2E5CC; }
 .saec-header-bg           { background-color:#E6DFCF; }
 .sesaec-header-bg         { background-color:#E0E6DF; }
 .generic-header-bg        { background-color:#E8E8E8; }
+
+/* Responsive */
+@media only screen and (max-width: 990px) {
+    .card-title { margin-top: 0.5rem; margin-bottom: 0.5rem; }
+    h1          { font-size: 1.8rem; }
+    h2          { font-size: 1.6rem; }
+    h3          { font-size: 1.4rem; }
+}
+@media only screen and (max-width: 580px) {
+    h1          { font-size: 1.6rem; }
+    h2          { font-size: 1.4rem; }
+    h3          { font-size: 1.2rem; }
+    body        { font-size: 0.8rem; }
+}
+@media only screen and (max-width: 300px) {
+    h1          { font-size: 1.4rem; }
+    h2          { font-size: 1.2rem; }
+    h3          { font-size: 1.0rem; }
+}
