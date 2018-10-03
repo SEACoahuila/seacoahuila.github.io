@@ -5,7 +5,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://www.seacoahuila.org.mx/</loc>
-<lastmod>2018-09-27T17:43:50-00:00</lastmod>
+<lastmod>2018-10-02T22:04:40-00:00</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -13,6 +13,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://www.seacoahuila.org.mx/secretaria-ejecutiva/capacitacion/2018-05-primera-capacitacion-y-difusion/</loc>
 <lastmod>2018-06-12T12:54:00-05:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://www.seacoahuila.org.mx/cc/informes/2018-informe-anual/</loc>
+<lastmod>2018-10-02T20:55:00-05:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
