@@ -5,7 +5,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://www.seacoahuila.org.mx/</loc>
-<lastmod>2018-10-03T00:29:27-00:00</lastmod>
+<lastmod>2018-10-03T20:29:08-00:00</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -19,7 +19,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://www.seacoahuila.org.mx/cc/informes/2018-informe-anual/</loc>
-<lastmod>2018-10-03T00:15:00-05:00</lastmod>
+<lastmod>2018-10-03T20:25:00-05:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -550,21 +550,21 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>http://www.seacoahuila.org.mx/secretaria-ejecutiva/institucional/plan-de-trabajo-2018/</loc>
+<loc>http://www.seacoahuila.org.mx/secretaria-ejecutiva/planes/plan-de-trabajo-2018/</loc>
 <lastmod>2018-06-08T13:40:00-05:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://www.seacoahuila.org.mx/cc/institucional/plan-de-trabajo-cc-2018/</loc>
+<loc>http://www.seacoahuila.org.mx/cc/planes/plan-de-trabajo-cc-2018/</loc>
 <lastmod>2018-06-13T11:25:00-05:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://www.seacoahuila.org.mx/cpc/institucional/plan-de-trabajo-cpc-2018/</loc>
+<loc>http://www.seacoahuila.org.mx/cpc/planes/plan-de-trabajo-cpc-2018/</loc>
 <lastmod>2018-02-14T09:00:00-06:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
