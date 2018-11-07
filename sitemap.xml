@@ -5,7 +5,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://www.seacoahuila.org.mx/</loc>
-<lastmod>2018-11-05T14:53:29-00:00</lastmod>
+<lastmod>2018-11-07T10:23:42-00:00</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -620,6 +620,41 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>http://www.seacoahuila.org.mx/comunicados/2018-11-05-reunion-canacintra/</loc>
+<lastmod>2018-11-07T09:55:00-06:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>1</priority>
+</url>
+
+<url>
+<loc>http://www.seacoahuila.org.mx/comunicados/2018-11-05-reunion-canaco-servytur/</loc>
+<lastmod>2018-11-07T09:55:00-06:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>1</priority>
+</url>
+
+<url>
+<loc>http://www.seacoahuila.org.mx/comunicados/2018-11-05-reunion-uane/</loc>
+<lastmod>2018-11-07T09:55:00-06:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>1</priority>
+</url>
+
+<url>
+<loc>http://www.seacoahuila.org.mx/comunicados/2018-11-05-reunion-canieti-cmic/</loc>
+<lastmod>2018-11-07T09:55:00-06:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>1</priority>
+</url>
+
+<url>
+<loc>http://www.seacoahuila.org.mx/comunicados/2018-11-05-reunion-canirac-gel/</loc>
+<lastmod>2018-11-07T09:55:00-06:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>1</priority>
+</url>
+
+<url>
 <loc>http://www.seacoahuila.org.mx/comunicados/2018-10-30-foro-regional-consulta-politica-nacional-anticorrupcion/</loc>
 <lastmod>2018-11-05T13:20:00-06:00</lastmod>
 <changefreq>daily</changefreq>
@@ -964,21 +999,21 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://www.seacoahuila.org.mx/category/comunicados.html</loc>
-<lastmod>2018-11-05T13:20:00-06:37</lastmod>
+<lastmod>2018-11-07T09:55:00-06:37</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://www.seacoahuila.org.mx/tag/consejo-de-participacion-ciudadana.html</loc>
-<lastmod>2018-11-05T13:20:00-06:37</lastmod>
+<lastmod>2018-11-07T09:55:00-06:37</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://www.seacoahuila.org.mx/tag/reuniones.html</loc>
-<lastmod>2018-11-05T13:20:00-06:37</lastmod>
+<lastmod>2018-11-07T09:55:00-06:37</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
