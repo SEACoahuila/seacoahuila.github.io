@@ -25,6 +25,7 @@ a:active,
 a:visited  { color: #224422; }
 strong     { font-family: 'Roboto','Helvetica Neue',Arial,sans-serif; font-weight: 500; }
 blockquote { font-family: 'Roboto','Helvetica Neue',Arial,sans-serif; font-weight: 300; font-size: 1.5em; }
+table      { width: 100%; }
 
 /* Navigation */
 .navbar-dark .navbar-brand         { font-weight: 700; }
