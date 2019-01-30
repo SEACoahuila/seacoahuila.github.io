@@ -5,7 +5,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://www.seacoahuila.org.mx/</loc>
-<lastmod>2019-01-29T14:27:09-00:00</lastmod>
+<lastmod>2019-01-30T16:23:50-00:00</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -543,6 +543,27 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>http://www.seacoahuila.org.mx/secretaria-ejecutiva/transparencia-lgcg/informacion-contable/</loc>
+<lastmod>2019-01-30T14:28:00-06:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://www.seacoahuila.org.mx/secretaria-ejecutiva/transparencia-lgcg/informacion-presupuestal/</loc>
+<lastmod>2019-01-30T14:24:00-06:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://www.seacoahuila.org.mx/secretaria-ejecutiva/transparencia-lgcg/informacion-programatica/</loc>
+<lastmod>2019-01-30T14:32:00-06:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>http://www.seacoahuila.org.mx/general/terminos/informacion/</loc>
 <lastmod>2018-04-16T11:00:00-05:00</lastmod>
 <changefreq>daily</changefreq>
@@ -608,6 +629,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://www.seacoahuila.org.mx/general/terminos/sitio-web/</loc>
 <lastmod>2018-04-16T11:00:00-05:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://www.seacoahuila.org.mx/secretaria-ejecutiva/transparencia-lgcg/titulo-quinto-de-la-lgcg/</loc>
+<lastmod>2019-01-30T14:22:00-06:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
