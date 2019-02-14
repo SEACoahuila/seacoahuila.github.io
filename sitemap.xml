@@ -5,7 +5,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://www.seacoahuila.org.mx/</loc>
-<lastmod>2019-02-13T12:52:54-00:00</lastmod>
+<lastmod>2019-02-14T14:32:25-00:00</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -683,6 +683,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>http://www.seacoahuila.org.mx/comunicados/2019-01-30-dia-internacional-proteccion-datos-personales/</loc>
+<lastmod>2019-01-30T13:12:00-06:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>1</priority>
+</url>
+
+<url>
 <loc>http://www.seacoahuila.org.mx/comunicados/2018-12-19-propuesta-politica-nacional-anticorrupcion/</loc>
 <lastmod>2018-12-19T11:26:00-06:00</lastmod>
 <changefreq>daily</changefreq>
@@ -1125,7 +1132,21 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://www.seacoahuila.org.mx/category/comunicados.html</loc>
-<lastmod>2018-12-19T11:26:00-06:37</lastmod>
+<lastmod>2019-01-30T13:12:00-06:37</lastmod>
+<changefreq>hourly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://www.seacoahuila.org.mx/tag/presentaciones.html</loc>
+<lastmod>2019-01-30T13:12:00-06:37</lastmod>
+<changefreq>hourly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://www.seacoahuila.org.mx/tag/secretaria-ejecutiva.html</loc>
+<lastmod>2019-01-30T13:12:00-06:37</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1133,20 +1154,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://www.seacoahuila.org.mx/tag/consejo-de-participacion-ciudadana.html</loc>
 <lastmod>2018-12-19T11:26:00-06:37</lastmod>
-<changefreq>hourly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>http://www.seacoahuila.org.mx/tag/presentaciones.html</loc>
-<lastmod>2018-12-19T11:26:00-06:37</lastmod>
-<changefreq>hourly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>http://www.seacoahuila.org.mx/tag/secretaria-ejecutiva.html</loc>
-<lastmod>2018-12-12T09:32:00-06:37</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
