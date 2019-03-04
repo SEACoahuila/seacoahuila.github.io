@@ -5,7 +5,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://www.seacoahuila.org.mx/</loc>
-<lastmod>2019-03-04T10:43:30-00:00</lastmod>
+<lastmod>2019-03-04T13:28:40-00:00</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -180,7 +180,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://www.seacoahuila.org.mx/secretaria-ejecutiva/transparencia/art-21-21-calendario-de-reuniones-publicas/</loc>
-<lastmod>2019-01-31T16:22:00-06:00</lastmod>
+<lastmod>2019-03-04T11:25:00-06:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -509,7 +509,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://www.seacoahuila.org.mx/cc/datos/directorio-datos-abiertos-cc/</loc>
-<lastmod>2019-02-28T16:28:00-06:00</lastmod>
+<lastmod>2019-03-04T13:14:00-06:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -629,6 +629,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://www.seacoahuila.org.mx/cpc/planes/plan-de-trabajo-cpc-2018/</loc>
 <lastmod>2018-02-14T09:00:00-06:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://www.seacoahuila.org.mx/cpc/planes/plan-de-trabajo-cpc-2019/</loc>
+<lastmod>2019-02-20T20:50:00-06:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
