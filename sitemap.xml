@@ -5,7 +5,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://www.seacoahuila.org.mx/</loc>
-<lastmod>2019-04-10T12:32:59-00:00</lastmod>
+<lastmod>2019-05-03T10:29:01-00:00</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -663,21 +663,21 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://www.seacoahuila.org.mx/cc/institucional/que-es-el-cc/</loc>
-<lastmod>2018-04-17T21:18:00-05:00</lastmod>
+<lastmod>2019-04-23T16:55:00-05:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://www.seacoahuila.org.mx/cpc/institucional/que-es-el-cpc/</loc>
-<lastmod>2018-04-17T21:44:00-05:00</lastmod>
+<lastmod>2019-04-23T16:55:00-05:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://www.seacoahuila.org.mx/secretaria-ejecutiva/institucional/que-es-la-secretaria-ejecutiva/</loc>
-<lastmod>2018-04-17T21:18:00-05:00</lastmod>
+<lastmod>2019-04-23T16:55:00-05:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -715,6 +715,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <lastmod>2018-05-21T13:33:00-05:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://www.seacoahuila.org.mx/comunicados/2019-05-02-reunion-alcalde-monclova/</loc>
+<lastmod>2019-05-02T19:43:00-05:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>1</priority>
 </url>
 
 <url>
@@ -1181,7 +1188,21 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://www.seacoahuila.org.mx/category/comunicados.html</loc>
-<lastmod>2019-03-04T16:24:00-06:37</lastmod>
+<lastmod>2019-05-02T19:43:00-06:37</lastmod>
+<changefreq>hourly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://www.seacoahuila.org.mx/tag/reuniones.html</loc>
+<lastmod>2019-05-02T19:43:00-06:37</lastmod>
+<changefreq>hourly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://www.seacoahuila.org.mx/tag/secretaria-ejecutiva.html</loc>
+<lastmod>2019-05-02T19:43:00-06:37</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1201,22 +1222,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>http://www.seacoahuila.org.mx/tag/secretaria-ejecutiva.html</loc>
-<lastmod>2019-03-04T16:24:00-06:37</lastmod>
-<changefreq>hourly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
 <loc>http://www.seacoahuila.org.mx/tag/consejo-de-participacion-ciudadana.html</loc>
 <lastmod>2018-12-19T11:26:00-06:37</lastmod>
-<changefreq>hourly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>http://www.seacoahuila.org.mx/tag/reuniones.html</loc>
-<lastmod>2018-12-12T09:32:00-06:37</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
