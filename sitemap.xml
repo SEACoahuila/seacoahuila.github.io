@@ -5,7 +5,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://www.seacoahuila.org.mx/</loc>
-<lastmod>2019-05-20T15:26:04-00:00</lastmod>
+<lastmod>2019-05-21T15:37:08-00:00</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -746,6 +746,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>http://www.seacoahuila.org.mx/publicaciones/2019-05-21-consolidacion-del-sna/</loc>
+<lastmod>2019-05-21T15:02:00-05:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>1</priority>
+</url>
+
+<url>
 <loc>http://www.seacoahuila.org.mx/comunicados/2019-05-02-reunion-alcalde-monclova/</loc>
 <lastmod>2019-05-02T19:43:00-05:00</lastmod>
 <changefreq>daily</changefreq>
@@ -1217,6 +1224,27 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://www.seacoahuila.org.mx/category/comunicados.html</loc>
 <lastmod>2019-05-02T19:43:00-06:37</lastmod>
+<changefreq>hourly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://www.seacoahuila.org.mx/category/publicaciones.html</loc>
+<lastmod>2019-05-21T15:02:00-06:37</lastmod>
+<changefreq>hourly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://www.seacoahuila.org.mx/tag/publicaciones.html</loc>
+<lastmod>2019-05-21T15:02:00-06:37</lastmod>
+<changefreq>hourly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://www.seacoahuila.org.mx/tag/azimut.html</loc>
+<lastmod>2019-05-21T15:02:00-06:37</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
