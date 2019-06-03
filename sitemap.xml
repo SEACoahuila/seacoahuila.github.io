@@ -5,7 +5,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://www.seacoahuila.org.mx/</loc>
-<lastmod>2019-06-03T13:36:58-00:00</lastmod>
+<lastmod>2019-06-03T17:57:32-00:00</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -746,6 +746,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>http://www.seacoahuila.org.mx/publicaciones/2019-06-03-sistema-nacional-fiscalizacion/</loc>
+<lastmod>2019-06-03T17:48:00-05:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>1</priority>
+</url>
+
+<url>
 <loc>http://www.seacoahuila.org.mx/publicaciones/2019-05-28-ciudadania-sistema-anticorrupcion-mexico/</loc>
 <lastmod>2019-05-28T13:02:00-05:00</lastmod>
 <changefreq>daily</changefreq>
@@ -1237,21 +1244,21 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://www.seacoahuila.org.mx/category/publicaciones.html</loc>
-<lastmod>2019-05-28T13:02:00-06:37</lastmod>
+<lastmod>2019-06-03T17:48:00-06:37</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://www.seacoahuila.org.mx/tag/publicaciones.html</loc>
-<lastmod>2019-05-28T13:02:00-06:37</lastmod>
+<lastmod>2019-06-03T17:48:00-06:37</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://www.seacoahuila.org.mx/tag/azimut.html</loc>
-<lastmod>2019-05-28T13:02:00-06:37</lastmod>
+<lastmod>2019-06-03T17:48:00-06:37</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
