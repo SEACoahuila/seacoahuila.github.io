@@ -5,7 +5,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://www.seacoahuila.org.mx/</loc>
-<lastmod>2019-06-12T15:15:25-00:00</lastmod>
+<lastmod>2019-06-17T12:33:41-00:00</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -760,6 +760,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>http://www.seacoahuila.org.mx/publicaciones/2019-06-17-tribunal-justicia-administrativa-nueva-forma-impartir-justicia/</loc>
+<lastmod>2019-06-17T12:15:00-05:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>1</priority>
+</url>
+
+<url>
 <loc>http://www.seacoahuila.org.mx/comunicados/2019-06-11-impacto-reto-100-dias/</loc>
 <lastmod>2019-06-11T10:20:00-05:00</lastmod>
 <changefreq>daily</changefreq>
@@ -1272,7 +1279,21 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://www.seacoahuila.org.mx/category/publicaciones.html</loc>
-<lastmod>2019-06-11T09:40:00-06:37</lastmod>
+<lastmod>2019-06-17T12:15:00-06:37</lastmod>
+<changefreq>hourly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://www.seacoahuila.org.mx/tag/publicaciones.html</loc>
+<lastmod>2019-06-17T12:15:00-06:37</lastmod>
+<changefreq>hourly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://www.seacoahuila.org.mx/tag/azimut.html</loc>
+<lastmod>2019-06-17T12:15:00-06:37</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1280,20 +1301,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://www.seacoahuila.org.mx/tag/secretaria-ejecutiva.html</loc>
 <lastmod>2019-06-11T10:20:00-06:37</lastmod>
-<changefreq>hourly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>http://www.seacoahuila.org.mx/tag/publicaciones.html</loc>
-<lastmod>2019-06-11T09:40:00-06:37</lastmod>
-<changefreq>hourly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>http://www.seacoahuila.org.mx/tag/azimut.html</loc>
-<lastmod>2019-06-11T09:40:00-06:37</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
