@@ -32,17 +32,12 @@
     <link rel="alternate" href="http://www.seacoahuila.org.mx/feeds/all.rss.xml" type="application/rss+xml" title="Sistema Anticorrupción del Estado de Coahuila de Zaragoza Full RSS Feed" />
     <link rel="stylesheet" href="http://www.seacoahuila.org.mx/theme/vendor/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="http://www.seacoahuila.org.mx/theme/vendor/font-awesome/css/font-awesome.min.css" type="text/css">
-    <link rel="stylesheet" href="http://www.seacoahuila.org.mx/theme/css/modern-business.css">
-    <link rel="stylesheet" href="http://www.seacoahuila.org.mx/theme/css/seacoahuila.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,500,700">
-    <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120793168-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'UA-120793168-1');
-    </script>
+    <link rel="stylesheet" href="http://www.seacoahuila.org.mx/theme/vendor/colorbox/colorbox.css">
+    <link rel="stylesheet" href="http://www.seacoahuila.org.mx/theme/vendor/slider/themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="http://www.seacoahuila.org.mx/theme/vendor/slider/nivo-slider.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="http://www.seacoahuila.org.mx/theme/css/seacoahuila-2019-02.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,700,900|Roboto:100,300,400,500,700">
+    <!-- Google Analytics inicia -->
 </head>
 <body>
     <!--
@@ -51,7 +46,6 @@
         Compartimos el Software Libre que usa esta plataforma web:
             Python           http://python.org/
             Pelican          http://getpelican.com/
-            Start Bootstrap  https://startbootstrap.com/
         Así como el código abierto elaborado por la Secretaría Ejecutiva:
             Plataforma web   https://github.com/seacoahuila/plataforma.web
             Sitio web        https://github.com/seacoahuila/seacoahuila.github.io
@@ -60,494 +54,718 @@
       -->
     <!-- Navigation -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark fixed-top sea-bg-green-dark">
-        <div class="container">
-            <a class="navbar-brand" href="http://www.seacoahuila.org.mx"><img src="http://www.seacoahuila.org.mx/theme/images/logo-navigation.png" alt="SEAC"> SEA Coahuila</a>
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+        <div class="container"> <a class="navbar-brand" href="http://www.seacoahuila.org.mx/"><img src="http://www.seacoahuila.org.mx/theme/images/logo-navigation.png" alt="SEAC"> SEA Coahuila</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link" href="http://www.seacoahuila.org.mx/category/comunicados.html">Comunicados</a></li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownCPC" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">CC</a>
-                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownCPC">
-                            <a class="dropdown-item" href="http://www.seacoahuila.org.mx/cc/institucional/que-es-el-cc/">Qué es el CC</a>
-                            <a class="dropdown-item" href="http://www.seacoahuila.org.mx/cc/planes/plan-de-trabajo-cc-2018/">Plan de Trabajo</a>
-                            <a class="dropdown-item" href="http://www.seacoahuila.org.mx/cc/infografias/">Infográficas</a>
-                            <a class="dropdown-item" href="http://www.seacoahuila.org.mx/cc/informes/2018-informe-anual/">Informe Anual</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownCPC" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">CPC</a>
-                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownCPC">
-                            <a class="dropdown-item" href="http://www.seacoahuila.org.mx/cpc/institucional/que-es-el-cpc/">Qué es el CPC</a>
-                            <a class="dropdown-item" href="http://www.seacoahuila.org.mx/cpc/planes/plan-de-trabajo-cpc-2019/">Plan de Trabajo</a>
-                            <a class="dropdown-item" href="http://www.seacoahuila.org.mx/cpc/declaraciones/3-de-3/">Declaraciones 3 de 3</a>
-                            <a class="dropdown-item" href="http://www.seacoahuila.org.mx/cpc/institucional/documentos-cpc/">Documentos</a>
-                            <a class="dropdown-item" href="http://www.seacoahuila.org.mx/cpc/infografias/">Infográficas</a>
-                            <a class="dropdown-item" href="http://www.seacoahuila.org.mx/cpc/institucional/contacto-cpc/">Contacto</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownSE" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Secretaría Ejecutiva</a>
-                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownSE">
-                            <a class="dropdown-item" href="http://www.seacoahuila.org.mx/secretaria-ejecutiva/institucional/que-es-la-secretaria-ejecutiva/">Qué es la SE</a>
-                            <a class="dropdown-item" href="http://www.seacoahuila.org.mx/secretaria-ejecutiva/planes/plan-de-trabajo-2019/">Plan de Trabajo</a>
-                            <a class="dropdown-item" href="http://www.seacoahuila.org.mx/secretaria-ejecutiva/capacitacion/2018-05-primera-capacitacion-y-difusion/">Capacitación</a>
-                            <a class="dropdown-item" href="http://www.seacoahuila.org.mx/secretaria-ejecutiva/infografias/">Infográficas</a>
-                            <a class="dropdown-item" href="http://www.seacoahuila.org.mx/secretaria-ejecutiva/publicaciones/">Publicaciones</a>
-                            <a class="dropdown-item" href="http://www.seacoahuila.org.mx/secretaria-ejecutiva/transparencia/">Transparencia</a>
-                            <a class="dropdown-item" href="http://www.seacoahuila.org.mx/secretaria-ejecutiva/transparencia-lgcg/">Transparencia LGCG</a>
-                            <a class="dropdown-item" href="http://www.seacoahuila.org.mx/secretaria-ejecutiva/institucional/contacto/">Contacto</a>
-                        </div>
-                    </li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="http://www.seacoahuila.org.mx/index.html#que-es">Qué es el SEA</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="http://www.seacoahuila.org.mx/index.html#comunicados">Comunicados</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="http://www.seacoahuila.org.mx/secretaria-ejecutiva/transparencia/">Transparencia</a></li>
+                    <li class="nav-item"><a class="nav-link" href="http://www.seacoahuila.org.mx/secretaria-ejecutiva/institucional/contacto/">Contacto</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <header>
-    <div class="header-content saec-header-bg">
-        <img src="http://www.seacoahuila.org.mx/theme/images/saec-300x255.png" alt="Sistema Anticorrupción del Estado de Coahuila de Zaragoza">
-        <script type="application/ld+json">
-        {
-            "@context": "http://schema.org",
-            "@type": "GovernmentOrganization",
-            "name": "Sistema Anticorrupción del Estado de Coahuila de Zaragoza",
-            "description": "El Sistema Estatal Anticorrupción tiene las facultades de establecer principios, bases generales, políticas públicas y procedimientos para la coordinación entre las autoridades de los Entes Públicos en la prevención, detección y sanción de faltas administrativas y hechos de corrupción, así como en la fiscalización y control de recursos públicos.",
-            "email": "informacion@seacoahuila.org.mx",
-            "logo": {
-                "@type": "ImageObject",
-                "url": "http://www.seacoahuila.org.mx/theme/images/saec.png"
-            },
-            "url": "http://www.seacoahuila.org.mx"
-        }
-        </script>
-    </div>    </header>
-    <div class="container">
-        <section class="index-content">
-            <!-- Homepage Highlights -->
-            <div class="row">
-                <div class="col-lg-3 mb-3">
-                    <!-- Tarjeta 1 -->
-                    <div class="card h-100">
-                        <h4 class="card-header">Integrantes</h4>
-                        <div class="list-group">
-                            <a class="list-group-item" href="http://www.seacoahuila.org.mx/cc/institucional/que-es-el-cc/">
-                                <i class="fa fa-university" aria-hidden="true"></i> Comité Coordinador (CC)
-                            </a>
-                            <a class="list-group-item" href="http://www.seacoahuila.org.mx/cpc/institucional/que-es-el-cpc/">
-                                <i class="fa fa-users" aria-hidden="true"></i> Consejo de Participación Ciudadana (CPC)
-                            </a>
-                            <a class="list-group-item" href="http://www.seacoahuila.org.mx/secretaria-ejecutiva/institucional/que-es-la-secretaria-ejecutiva/">
-                                <i class="fa fa-cubes" aria-hidden="true"></i> Secretaría Ejecutiva (SE)
-                            </a>
-                            <a class="list-group-item" href="#">
-                                <i class="fa fa-building" aria-hidden="true"></i> Municipios
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 mb-3">
-                    <!-- Tarjeta 2 -->
-                    <div class="card h-100">
-                        <h4 class="card-header">Capacitación</h4>
-                        <div class="card-body">
-                            Como parte del Programa de Trabajo del Comité Coordinador 2018 del
-                            <b>Sistema Anticorrupción del Estado de Coahuila de Zaragoza</b> (SAEC)
-                            se tiene como objetivo la capacitación, promoción y difusión del <b>SEAC</b>
-                            para las y los servidores públicos de Coahuila de Zaragoza.
-                        </div>
-                        <div class="list-group">
-                            <a class="list-group-item" href="http://www.seacoahuila.org.mx/secretaria-ejecutiva/capacitacion/2018-05-primera-capacitacion-y-difusion/">
-                                <i class="fa fa-map" aria-hidden="true"></i> Primera Capacitación y Difusión
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 mb-3">
-                    <!-- Tarjeta 3 -->
-                    <div class="card h-100">
-                        <h4 class="card-header"><a href="http://www.seacoahuila.org.mx/secretaria-ejecutiva/transparencia/">Transparencia</a></h4>
-                        <div class="list-group">
-                            <a class="list-group-item" href="http://www.seacoahuila.org.mx/secretaria-ejecutiva/transparencia/art-21-01-estructura-organica/">
-                                <i class="fa fa-sitemap" aria-hidden="true"></i> Estructura orgánica
-                            </a>
-                            <a class="list-group-item" href="http://www.seacoahuila.org.mx/secretaria-ejecutiva/transparencia/art-21-02-marco-normativo/">
-                                <i class="fa fa-book" aria-hidden="true"></i> Marco normativo
-                            </a>
-                            <a class="list-group-item" href="http://www.seacoahuila.org.mx/secretaria-ejecutiva/transparencia/art-21-21-calendario-de-reuniones-publicas/">
-                                <i class="fa fa-calendar" aria-hidden="true"></i> Calendario de reuniones públicas
-                            </a>
-                            <a class="list-group-item" href="http://www.seacoahuila.org.mx/secretaria-ejecutiva/transparencia/art-21-22-unidad-de-transparencia-y-comite-de-transparencia/">
-                                <i class="fa fa-eye" aria-hidden="true"></i> Unidad y comité de transparencia
-                            </a>
-                            <a class="list-group-item" href="http://www.seacoahuila.org.mx/secretaria-ejecutiva/transparencia/">
-                                <i class="fa fa-bars" aria-hidden="true"></i> Información Pública de Oficio
-                            </a>
-                            <a class="list-group-item" href="https://goo.gl/forms/v9fUknvCjxNUqNzA2">
-                                <i class="fa fa-commenting" aria-hidden="true"></i> Comentarios y sugerencias
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 mb-3">
-                    <!-- Tarjeta 4 -->
-                    <div class="card h-100">
-                        <h4 class="card-header">Vínculos externos</h4>
-                        <div class="list-group">
-                            <a class="list-group-item" href="http://www.cpccoahuila.org.mx" target="_blank">
-                                <i class="fa fa-external-link" aria-hidden="true"></i> Consejo de Participación Ciudadana
-                            </a>
-                            <a class="list-group-item" href="http://sna.org.mx/" target="_blank">
-                                <i class="fa fa-external-link" aria-hidden="true"></i> Sistema Nacional Anticorrupción
-                            </a>
-                            <a class="list-group-item" href="http://guiaciudadanadelsna.org.mx/" target="_blank">
-                                <i class="fa fa-external-link" aria-hidden="true"></i> Guía Ciudadana del SNA
-                            </a>
-                            <a class="list-group-item" href="https://ethos.org.mx/es/ethos-publications/sna-y-el-nuevo-regimen-de-responsabilidades-2/" target="_blank">
-                                <i class="fa fa-external-link" aria-hidden="true"></i> El SNA y el nuevo régimen de responsabilidades
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="index-content">
-            <!-- Homepage Infographics -->
-            <h2>Infografías y Datos</h2>
-            <div class="row">
-                <div class="col-lg-3 col-sm-6 portfolio-item">
-                    <div class="card h-100">
-                        <a href="secretaria-ejecutiva/infografias/politica-nacional-anticorrupcion-infografia/"><img class="card-img-top" src="secretaria-ejecutiva/infografias/politica-nacional-anticorrupcion-infografia/preview.jpg" alt="Política Nacional Anticorrupción"></a>
-                        <div class="card-body">
-                            <h4 class="card-title">
-                                <a href="secretaria-ejecutiva/infografias/politica-nacional-anticorrupcion-infografia/">Política Nacional Anticorrupción</a>
-                            </h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 portfolio-item">
-                    <div class="card h-100">
-                        <a href="secretaria-ejecutiva/infografias/sea-coahuila-infografia/"><img class="card-img-top" src="secretaria-ejecutiva/infografias/sea-coahuila-infografia/preview.jpg" alt="Sistema Anticorrupción del Estado de Coahuila de Zaragoza"></a>
-                        <div class="card-body">
-                            <h4 class="card-title">
-                                <a href="secretaria-ejecutiva/infografias/sea-coahuila-infografia/">Sistema Anticorrupción del Estado de Coahuila de Zaragoza</a>
-                            </h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 portfolio-item">
-                    <div class="card h-100">
-                        <a href="cc/infografias/cc-infografia/"><img class="card-img-top" src="cc/infografias/cc-infografia/preview.jpg" alt="Comité Coordinador"></a>
-                        <div class="card-body">
-                            <h4 class="card-title">
-                                <a href="cc/infografias/cc-infografia/">Comité Coordinador</a>
-                            </h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 portfolio-item">
-                    <div class="card h-100">
-                        <a href="secretaria-ejecutiva/infografias/organo-de-gobierno-comision-ejecutiva-secretaria-ejecutiva/"><img class="card-img-top" src="secretaria-ejecutiva/infografias/organo-de-gobierno-comision-ejecutiva-secretaria-ejecutiva/preview.jpg" alt="Órgano de Gobierno, Comisión Ejecutiva y Secretaría Ejecutiva"></a>
-                        <div class="card-body">
-                            <h4 class="card-title">
-                                <a href="secretaria-ejecutiva/infografias/organo-de-gobierno-comision-ejecutiva-secretaria-ejecutiva/">Órgano de Gobierno, Comisión Ejecutiva y Secretaría Ejecutiva</a>
-                            </h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="index-content">
-            <!-- Homepage Billboard -->
-            <div class="well">
-              <a href="http://www.seacoahuila.org.mx/secretaria-ejecutiva/publicaciones/azimut-2019-05/"><img class="img-fluid" src="http://www.seacoahuila.org.mx/secretaria-ejecutiva/publicaciones/azimut-2019-05/banner.jpg" alt="Revista Azimut de mayo 2019, edición 01"></a>
-            </div>
-        </section>
-        <section class="index-content">
-            <!-- Indice -->
-            <div class="card mb-4">
-                <div class="card-body">
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <a href="http://www.seacoahuila.org.mx/publicaciones/2019-06-24-entrevista-lourdes-morales-garcia/">
-                                <img class="img-fluid rounded" src="http://www.seacoahuila.org.mx/publicaciones/2019-06-24-entrevista-lourdes-morales-garcia//preview.jpg" alt="Imagen previa">
-                            </a>
-                        </div>
-                        <div class="col-lg-6">
-                            <a href="http://www.seacoahuila.org.mx/publicaciones/2019-06-24-entrevista-lourdes-morales-garcia/"><h2 class="card-title">Entrevista con Lourdes Morales Canales</h2></a>
-                            <p>Lourdes Morales es una de las académicas y activistas más importantes en el área de tranparencia y acceso a la información pública, es doctora en ciencia política por la la Sorbonne París III. En esta entrevista, la directora de la Red por la Rendición de Cuentas hace un balance, desde todos los frentes, del SNA.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card mb-4">
-                <div class="card-body">
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <a href="http://www.seacoahuila.org.mx/publicaciones/2019-06-17-tribunal-justicia-administrativa-nueva-forma-impartir-justicia/">
-                                <img class="img-fluid rounded" src="http://www.seacoahuila.org.mx/publicaciones/2019-06-17-tribunal-justicia-administrativa-nueva-forma-impartir-justicia//preview.jpg" alt="Imagen previa">
-                            </a>
-                        </div>
-                        <div class="col-lg-6">
-                            <a href="http://www.seacoahuila.org.mx/publicaciones/2019-06-17-tribunal-justicia-administrativa-nueva-forma-impartir-justicia/"><h2 class="card-title">Tribunal de Justicia Administrativa de Coahuila: Una Nueva Forma de Impartir Justicia</h2></a>
-                            <p>Ante la percepción ciudadana de que la corrupción es uno de los principales problemas nacionales, Gobierno y distintos sectores de la sociedad decidieron sumar esfuerzos para enfrentar y abatir este fenómeno.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card mb-4">
-                <div class="card-body">
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <a href="http://www.seacoahuila.org.mx/comunicados/2019-06-11-impacto-reto-100-dias/">
-                                <img class="img-fluid rounded" src="http://www.seacoahuila.org.mx/comunicados/2019-06-11-impacto-reto-100-dias//preview.jpg" alt="Imagen previa">
-                            </a>
-                        </div>
-                        <div class="col-lg-6">
-                            <a href="http://www.seacoahuila.org.mx/comunicados/2019-06-11-impacto-reto-100-dias/"><h2 class="card-title">El Impacto del Reto 100 Días en el Sistema Anticorrupción del Estado de Coahuila de Zaragoza</h2></a>
-                            <p>El Sistema Anticorrupción del Estado de Coahuila de Zaragoza, a iniciativa del Consejo de Participación Ciudadana y por acuerdo de las instancias que lo integran, implementa desde el pasado 27 de febrero, el Proyecto llamado "Reto 100 días" cuyo propósito es incrementar la visibilidad y confianza del trabajo coordinado entre sociedad y gobierno.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card mb-4">
-                <div class="card-body">
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <a href="http://www.seacoahuila.org.mx/publicaciones/2019-06-11-poder-judicial-coahuila-nuevos-retos-compromisos-contra-corrupcion/">
-                                <img class="img-fluid rounded" src="http://www.seacoahuila.org.mx/publicaciones/2019-06-11-poder-judicial-coahuila-nuevos-retos-compromisos-contra-corrupcion//preview.jpg" alt="Imagen previa">
-                            </a>
-                        </div>
-                        <div class="col-lg-6">
-                            <a href="http://www.seacoahuila.org.mx/publicaciones/2019-06-11-poder-judicial-coahuila-nuevos-retos-compromisos-contra-corrupcion/"><h2 class="card-title">Poder Judicial de Coahuila: Nuevos Retos y Compromisos contra la Corrupción</h2></a>
-                            <p>El Consejo de la Judicatura ha sido dotado de nuevas herramientas que le permiten asumir el reto de participar en la estrategia de combate a la corrupción.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card mb-4">
-                <div class="card-body">
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <a href="http://www.seacoahuila.org.mx/publicaciones/2019-06-03-sistema-nacional-fiscalizacion/">
-                                <img class="img-fluid rounded" src="http://www.seacoahuila.org.mx/publicaciones/2019-06-03-sistema-nacional-fiscalizacion//preview.jpg" alt="Imagen previa">
-                            </a>
-                        </div>
-                        <div class="col-lg-6">
-                            <a href="http://www.seacoahuila.org.mx/publicaciones/2019-06-03-sistema-nacional-fiscalizacion/"><h2 class="card-title">Sistema Nacional de Fiscalización: Una Perspectiva desde la Auditoría Superior de Coahuila</h2></a>
-                            <p>Aunque se han establecido las bases, aún persisten retos sustanciales para el Sistema Nacional de Fiscalización en los rubros de la calidad de la información, auditorías al desempeño, dotar de nuevas facultades de fiscalización y el combate a la corrupción.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card mb-4">
-                <div class="card-body">
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <a href="http://www.seacoahuila.org.mx/publicaciones/2019-05-28-ciudadania-sistema-anticorrupcion-mexico/">
-                                <img class="img-fluid rounded" src="http://www.seacoahuila.org.mx/publicaciones/2019-05-28-ciudadania-sistema-anticorrupcion-mexico//preview.jpg" alt="Imagen previa">
-                            </a>
-                        </div>
-                        <div class="col-lg-6">
-                            <a href="http://www.seacoahuila.org.mx/publicaciones/2019-05-28-ciudadania-sistema-anticorrupcion-mexico/"><h2 class="card-title">La Ciudadanía en el Sistema Anticorrupción en México</h2></a>
-                            <p>Las y los ciudadanos lograron incidir en la política nacional de la mano de los legisladores creando el Sistema Nacional Anticorrupción y sus leyes secundarias, donde la participación ciudadana tiene un papel preponderante al encauzar los esfuerzos institucionales y ser el vínculo con la sociedad civil.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Paginacion -->
-            <nav>
-                <ul class="pagination justify-content-center">
-                    <li class="page-item">
-                        <a class="page-link" href="http://www.seacoahuila.org.mx/index.html">
-                            1
-                        </a>
-                    </li>
-                    <li class="page-item">
-                        <a class="page-link" href="http://www.seacoahuila.org.mx/index2.html">
-                            2
-                        </a>
-                    </li>
-                    <li class="page-item">
-                        <a class="page-link" href="http://www.seacoahuila.org.mx/index3.html">
-                            3
-                        </a>
-                    </li>
-                    <li class="page-item">
-                        <a class="page-link" aria-label="Next" href="http://www.seacoahuila.org.mx/index2.html">
-                            <span aria-hidden="true">&raquo;</span>
-                            <span class="sr-only">Siguiente</span>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </section>
-        <section class="index-content">
-            <!-- Homepage Boletin Anticorrupcion -->
-            <div class="well">
-              <a href="http://www.seacoahuila.org.mx/secretaria-ejecutiva/publicaciones/boletin-anticorrupcion-coahuila-2019-06/"><img class="img-fluid" src="http://www.seacoahuila.org.mx/theme/images/boletin-anticorrupcion.jpg" alt="Boletín Anticorrupción en Coahuila, volumen II, año 2019"></a>
-            </div>        </section>
-    </div>
-    <footer class="py-5 sea-bg-gray-dark">
-        <div class="container">
-            <!-- Footer Transparency -->
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="transparency-section">
-                        <h4 class="transparency-header">Transparencia</h4>
-                        <div class="media">
-                            <a href="http://www.seacoahuila.org.mx/secretaria-ejecutiva/transparencia/" class="transparency-link">
-                                <i class="fa fa-eye transparency-fa"></i>
-                            </a>
-                            <div class="media-body">
-                                <a href="http://www.seacoahuila.org.mx/secretaria-ejecutiva/transparencia/" class="transparency-link">
-                                    Página de Transparencia de la SE
-                                </a>
-                            </div>
-                        </div>
-                        <div class="media">
-                            <a href="https://www.plataformadetransparencia.org.mx/" class="transparency-link" target="_blank">
-                                <i class="fa fa-university transparency-fa"></i>
-                            </a>
-                            <div class="media-body">
-                                <a href="https://www.plataformadetransparencia.org.mx/" class="transparency-link" target="_blank">
-                                    Plataforma Nacional de Transparencia
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="transparency-section">
-                        <h4 class="transparency-header">Quejas y Sugerencias</h4>
-                        <div class="media">
-                            <a href="https://goo.gl/forms/v9fUknvCjxNUqNzA2" class="transparency-link" target="_blank">
-                                <i class="fa fa-pencil-square transparency-fa"></i>
-                            </a>
-                            <div class="media-body">
-                                <a href="https://goo.gl/forms/v9fUknvCjxNUqNzA2" class="transparency-link" target="_blank">
-                                    Formulario en Internet
-                                </a>
-                            </div>
-                        </div>
-                        <div class="media">
-                            <a href="mailto:quejas.y.sugerencias@seacoahuila.org.mx" class="transparency-link">
-                                <i class="fa fa-envelope-square transparency-fa"></i>
-                            </a>
-                            <div class="media-body transparency-text">
-                                Correo electrónico
-                                <a href="mailto:quejas.y.sugerencias@seacoahuila.org.mx" class="transparency-link">
-                                    quejas.y.sugerencias@seacoahuila.org.mx
-                                </a>
-                            </div>
-                        </div>
-                        <div class="media">
-                            <i class="fa fa-phone-square transparency-fa"></i>
-                            <div class="media-body transparency-text">
-                                Teléfono (844) 688 2178 de 09:00 a 16:00 de lunes a viernes.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Footer Sitemap -->
-            <div class="row">
-                <div class="col-md-3">
-                    <h5 class="footer-text">Comunicados clasificados</h5>
-                    <ul class="footer-text">
-                        <li><a class="footer-link" href="http://www.seacoahuila.org.mx/tag/capacitaciones.html">Capacitaciones</a></li>
-                        <li><a class="footer-link" href="http://www.seacoahuila.org.mx/tag/comision-ejecutiva.html">Comisión Ejecutiva</a></li>
-                        <li><a class="footer-link" href="http://www.seacoahuila.org.mx/tag/comite-coordinador.html">Comité Coordinador</a></li>
-                        <li><a class="footer-link" href="http://www.seacoahuila.org.mx/tag/consejo-de-participacion-ciudadana.html">Consejo de Participación Ciudadana</a></li>
-                        <li><a class="footer-link" href="http://www.seacoahuila.org.mx/tag/organo-de-gobierno.html">Órgano de Gobierno</a></li>
-                        <li><a class="footer-link" href="http://www.seacoahuila.org.mx/tag/presentaciones.html">Presentaciones</a></li>
-                        <li><a class="footer-link" href="http://www.seacoahuila.org.mx/tag/reuniones.html">Reuniones</a></li>
-                        <li><a class="footer-link" href="http://www.seacoahuila.org.mx/tag/secretaria-ejecutiva.html">Secretaría Ejecutiva</a></li>
-                        <li><a class="footer-link" href="http://www.seacoahuila.org.mx/tag/sesiones.html">Sesiones</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-3">
-                    <h5 class="footer-text">Comité Coordinador</h5>
-                    <ul class="footer-text">
-                        <li><a class="footer-link" href="http://www.seacoahuila.org.mx/cc/institucional/que-es-el-cc/">Qué es el CC</a></li>
-                        <li><a class="footer-link" href="http://www.seacoahuila.org.mx/cc/planes/">Planes de Trabajo</a></li>
-                        <li><a class="footer-link" href="http://www.seacoahuila.org.mx/cc/infografias/">Infográficas</a></li>
-                        <li><a class="footer-link" href="http://www.seacoahuila.org.mx/cc/informes/">Informes</a></li>
-                    </ul>
-                    <h5 class="footer-text">Consejo de Participación Ciudadana</h5>
-                    <ul class="footer-text">
-                        <li><a class="footer-link" href="http://www.seacoahuila.org.mx/cpc/institucional/que-es-el-cpc/">Qué es el CPC</a></li>
-                        <li><a class="footer-link" href="http://www.seacoahuila.org.mx/cpc/planes/">Planes de Trabajo</a></li>
-                        <li><a class="footer-link" href="http://www.seacoahuila.org.mx/cpc/declaraciones/3-de-3/">Declaraciones 3 de 3</a></li>
-                        <li><a class="footer-link" href="http://www.seacoahuila.org.mx/cpc/institucional/documentos-cpc/">Documentos</a></li>
-                        <li><a class="footer-link" href="http://www.seacoahuila.org.mx/cpc/infografias/">Infográficas</a></li>
-                        <li><a class="footer-link" href="http://www.seacoahuila.org.mx/cpc/institucional/contacto-cpc/">Contacto</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-3">
-                    <h5 class="footer-text">Secretaría Ejecutiva</h5>
-                    <ul class="footer-text">
-                        <li><a class="footer-link" href="http://www.seacoahuila.org.mx/secretaria-ejecutiva/institucional/que-es-la-secretaria-ejecutiva/">Qué es la SE</a></li>
-                        <li><a class="footer-link" href="http://www.seacoahuila.org.mx/secretaria-ejecutiva/planes/">Planes de Trabajo</a></li>
-                        <li><a class="footer-link" href="http://www.seacoahuila.org.mx/secretaria-ejecutiva/capacitacion/">Capacitación</a></li>
-                        <li><a class="footer-link" href="http://www.seacoahuila.org.mx/secretaria-ejecutiva/infografias/">Infográficas</a></li>
-                        <li><a class="footer-link" href="http://www.seacoahuila.org.mx/secretaria-ejecutiva/publicaciones/">Publicaciones</a></li>
-                        <li><a class="footer-link" href="http://www.seacoahuila.org.mx/secretaria-ejecutiva/transparencia/">Transparencia</a></li>
-                        <li><a class="footer-link" href="http://www.seacoahuila.org.mx/secretaria-ejecutiva/transparencia-lgcg/">Transparencia LGCG</a></li>
-                        <li><a class="footer-link" href="http://www.seacoahuila.org.mx/secretaria-ejecutiva/institucional/contacto/">Contacto</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-3">
-                    <h5 class="footer-text">Contenido general</h5>
-                    <ul class="footer-text">
-                        <li><a class="footer-link" href="http://www.seacoahuila.org.mx/general/terminos/aviso-de-privacidad-integral/">Aviso de privacidad integral</a></li>
-                        <li><a class="footer-link" href="http://www.seacoahuila.org.mx/general/terminos/informacion/">Términos de uso de la información</a></li>
-                        <li><a class="footer-link" href="http://www.seacoahuila.org.mx/general/terminos/sitio-web/">Términos del sitio web</a></li>
-                        <li><a class="footer-link" href="http://www.seacoahuila.org.mx/general/anuncios/vacantes/">Vacantes</a></li>
-                    </ul>
-                </div>
-            </div>
-            <!-- Footer Integrantes -->
-            <div class="m-0 text-center">
-                <a href="http://www.seacoahuila.org.mx/"><img src="http://www.seacoahuila.org.mx/theme/images/footer-saec.png" alt="Sistema Anticorrupción del Estado de Coahuila de Zaragoza"></a>
-                <a href="http://www.cpccoahuila.org.mx/" target="_blank"><img src="http://www.seacoahuila.org.mx/theme/images/footer-cpc.png" alt="Consejo de Participación Ciudadana"></a>
-                <a href="https://www.asecoahuila.gob.mx/" target="_blank"><img src="http://www.seacoahuila.org.mx/theme/images/footer-asec.png" alt="Auditoría Superior del Estado de Coahuila de Zaragoza"></a>
-                <a href="http://187.189.19.101:8080/WebPGJE/fiscalia-especializada-en-delitos-por-hechos-de-corrupcion.html" target="_blank"><img src="http://www.seacoahuila.org.mx/theme/images/footer-fech.png" alt="Fiscalía Especializada en Delitos por Hechos de Corrupción del Estado de Coahuila de Zaragoza"></a>
-                <a href="http://www.sefircoahuila.gob.mx/" target="_blank"><img src="http://www.seacoahuila.org.mx/theme/images/footer-sefirc.png" alt="Secretaría de Fiscalización y Rendición de Cuentas"></a>
-                <a href="https://www.pjecz.gob.mx/" target="_blank"><img src="http://www.seacoahuila.org.mx/theme/images/footer-pjec.png" alt="Poder Judicial del Estado de Coahuila de Zaragoza"></a>
-                <a href="http://www.icai.org.mx/" target="_blank"><img src="http://www.seacoahuila.org.mx/theme/images/footer-icai.png" alt="Instituto Coahuilense de Acceso a la Información Pública"></a>
-                <a href="http://www.tjacoahuila.org/" target="_blank"><img src="http://www.seacoahuila.org.mx/theme/images/footer-tjac.png" alt="Tribunal de Justicia Administrativa de Coahuila de Zaragoza"></a>
-            </div>
-            <!-- Footer Social -->
-            <div class="m-0 text-center">
-                <p>
-                    <a class="footer-link" href="https://twitter.com/seseacoah" target="_blank"><i class="fa fa-twitter-square footer-fa"></i></a>
-                    <a class="footer-link" href="https://www.facebook.com/seseacoah/" target="_blank"><i class="fa fa-facebook-square footer-fa"></i></a>
-                    <a class="footer-link" href="https://github.com/seacoahuila" target="_blank"><i class="fa fa-github-square footer-fa"></i></a>
-                    <a class="footer-link" href="https://www.youtube.com/channel/UCgzKc9c1F9ntPAi34XNfy4A" target="_blank"><i class="fa fa-youtube-square footer-fa"></i></a>
-                    <a class="footer-link" href="http://www.seacoahuila.org.mx/feeds/all.rss.xml"><i class="fa fa-rss-square footer-fa"></i></a>
-                </p>
-            </div>
-            <!-- Footer Licences -->
-            <div class="m-0 text-center">
-                <p class="footer-text">
-                    <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
-                    <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">SEA Coahuila</span> 2018 por <a class="footer-link" xmlns:cc="http://creativecommons.org/ns#" href="http://www.seacoahuila.org.mx" property="cc:attributionName" rel="cc:attributionURL">Secretaría Ejecutiva del Sistema Anticorrupción del Estado de Coahuila de Zaragoza</a> se distribuye bajo una <a class="footer-link" rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Atribución-CompartirIgual 4.0 Internacional</a>.
-                </p>
-            </div>
-            <div class="m-0 text-center">
-                <p class="footer-message">
-                    El <a class="footer-link" href="https://github.com/SEACoahuila/plataforma.web" target="_blank">software libre que elabora este sitio web</a> se hace público con licencia <a class="footer-link" href="http://www.seacoahuila.org.mx/general/terminos/gpl/">GNU General Public License versión 3</a>.
-                    Usa <a class="footer-link" href="http://getpelican.com/" target="_blank">Pelican</a> que está programado con <a class="footer-link" href="http://python.org">Python</a>.
-                    Tema <a class="footer-link" href="https://startbootstrap.com/template-overviews/modern-business/" target="_blank">Modern Business</a> creado por <a class="footer-link" href="https://startbootstrap.com/" target="_blank">Start Bootstrap</a>.
-                    Le invitamos a descargar y usar los repositorios de <a class="footer-link" href="https://github.com/seacoahuila" target="_blank">SEACoahuila en GitHub</a>.
-                </p>
+    <!-- Carrusel -->
+    <div class="contenedor-horizontal slider-area clearfix">
+        <div class="theme-default">
+            <div class="slider" id="slider">
+                <a href="http://www.seacoahuila.org.mx/secretaria-ejecutiva/publicaciones/azimut-2019-05/"><img src="http://www.seacoahuila.org.mx/theme/images/2019-05-07-revista-azimut.jpg"></a>
+                <a href="http://www.seacoahuila.org.mx/secretaria-ejecutiva/publicaciones/boletin-anticorrupcion-coahuila-2019-06/"><img src="http://www.seacoahuila.org.mx/theme/images/2019-05-07-boletin.jpg"></a>
+                <a href="http://www.seacoahuila.org.mx/secretaria-ejecutiva/infografias/"><img src="http://www.seacoahuila.org.mx/theme/images/2019-05-07-infografias.jpg"></a>
             </div>
         </div>
+    </div>
+    <!-- Comité Coordinador -->
+    <div class="contenedor-horizontal logos-inst clearfix">
+        <div class="logos">
+            <a href="http://www.cpccoahuila.org.mx/" target="_blank"><img src="http://www.seacoahuila.org.mx/theme/images/cc-cpc.png"></a>
+            <a href="https://www.asecoahuila.gob.mx/" target="_blank"><img src="http://www.seacoahuila.org.mx/theme/images/cc-asec.png"></a>
+            <a href="http://187.189.19.101:8080/WebPGJE/fiscalia-especializada-en-delitos-por-hechos-de-corrupcion.html" target="_blank"><img src="http://www.seacoahuila.org.mx/theme/images/cc-fehc.png"></a>
+            <a href="http://www.sefircoahuila.gob.mx/" target="_blank"><img src="http://www.seacoahuila.org.mx/theme/images/cc-sefirc.png"></a>
+            <a href="https://www.pjecz.gob.mx/" target="_blank"><img src="http://www.seacoahuila.org.mx/theme/images/cc-pjecz.png"></a>
+            <a href="http://www.icai.org.mx/" target="_blank"><img src="http://www.seacoahuila.org.mx/theme/images/cc-icai.png"></a>
+            <a href="http://www.tjacoahuila.org/" target="_blank"><img src="http://www.seacoahuila.org.mx/theme/images/cc-tjacz.png"></a>
+        </div>
+    </div>
+    <!-- Qué es el SEA -->
+    <div id="que-es" class="contenedor-horizontal que-es-el-sea clearfix">
+        <div class="que-es">
+            <h1>¿QUÉ ES EL SEA?</h1>
+            <p>El Comité Coordinador del Sistema Anticorrupción del Estado de Coahuila de Zaragoza es la instancia responsable de establecer mecanismos de coordinación entre los integrantes del Sistema Estatal, y de éste con el Sistema Nacional, y tendrá bajo su encargo el diseño, promoción y evaluación de políticas públicas locales de prevención y combate a la corrupción.</p>
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/5BOENuByLBc?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+    <!-- CC -->
+    <div class="contenedor-horizontal comite-coordinador clearfix ">
+        <h3>¿Quien conforma el Comité Coordinador?</h3>
+        <div class="miembros-prev">
+            <div class="miembro"> <a href="#m2">
+                <div class="foto"><img src="http://www.seacoahuila.org.mx/theme/images/cc-cpc-aysg.jpg"></div>
+                <div class="info">
+                    <h2 class="nombre">Ana Yuri Solís Gaona</h2>
+                    <h3 class="puesto">Consejera Presidente del Consejo de Participación Ciudadana</h3>
+                    <div class="plus">+</div>
+                </div>
+            </a> </div>
+            <div class="miembro"> <a href="#m1">
+                <div class="foto"><img src="http://www.seacoahuila.org.mx/theme/images/cc-asec-japs.jpg"></div>
+                <div class="info">
+                    <h2 class="nombre">José Armando Plata Sandoval</h2>
+                    <h3 class="puesto">Auditor Superior del Estado de Coahuila de Zaragoza</h3>
+                    <div class="plus">+</div>
+                </div>
+            </a> </div>
+            <div class="miembro"> <a href="#m3">
+                <div class="foto"><img src="http://www.seacoahuila.org.mx/theme/images/cc-fech-jhfm.jpg"></div>
+                <div class="info">
+                    <h2 class="nombre">Jesús Homero Flores Mier</h2>
+                    <h3 class="puesto">Titular de la Fiscalía Especializada en Delitos por Hechos de Corrupción</h3>
+                    <div class="plus">+</div>
+                </div>
+            </a> </div>
+            <div class="miembro"> <a href="#m6">
+                <div class="foto"><img src="http://www.seacoahuila.org.mx/theme/images/cc-sefirc-tgb.jpg"></div>
+                <div class="info">
+                    <h2 class="nombre">Teresa Guajardo Berlanga</h2>
+                    <h3 class="puesto">Secretaria de Fiscalización y Rendición de Cuentas del Estado de Coahuila de Zaragoza</h3>
+                    <div class="plus">+</div>
+                </div>
+            </a> </div>
+            <div class="miembro"> <a href="#m5">
+                <div class="foto"><img src="http://www.seacoahuila.org.mx/theme/images/cc-pjecz-mcc.jpg"></div>
+                <div class="info">
+                    <h2 class="nombre">Miriam Cárdenas Cantú</h2>
+                    <h3 class="puesto">Presidenta del Tribunal Superior de Justicia y del Consejo de la Judicatura del Poder Judicial del Estado de Coahuila de Zaragoza</h3>
+                    <div class="plus">+</div>
+                </div>
+            </a> </div>
+            <div class="miembro"> <a href="#m4">
+                <div class="foto"><img src="http://www.seacoahuila.org.mx/theme/images/cc-icai-lgb.jpg"></div>
+                <div class="info">
+                    <h2 class="nombre">Luis González Briseño</h2>
+                    <h3 class="puesto">Comisionado Presidente del Instituto Coahuilense de Acceso a la Información Pública</h3>
+                    <div class="plus">+</div>
+                </div>
+            </a> </div>
+            <div class="miembro"> <a href="#m7">
+                <div class="foto"><img src="http://www.seacoahuila.org.mx/theme/images/cc-tjacz-slrw.jpg"></div>
+                <div class="info">
+                    <h2 class="nombre">Sandra Luz Rodríguez Wong</h2>
+                    <h3 class="puesto">Magistrada Presidenta del Tribunal de Justicia Administrativa de Coahuila de Zaragoza</h3>
+                    <div class="plus">+</div>
+                </div>
+            </a> </div>
+        </div>
+        <div class="miembros-full">
+            <div class="miembro" id="m2">
+                <div class="close-it">+</div>
+                <div class="info">
+                    <h2 class="nombre">Lic. Ana Yuri Solís Gaona</h2>
+                    <h3 class="puesto">Consejera Presidente del Consejo de Participación Ciudadana.</h3>
+                </div>
+                <div class="foto"><img src="http://www.seacoahuila.org.mx/theme/images/cc-cpc-aysg.jpg"></div>
+                <div class="bio">
+                    <h4>Formación Académica</h4>
+                    <ul>
+                        <li>Egresada de la Facultad de Economía con maestría en Administración Pública por la Universidad Iberoamericana.</li>
+                    </ul>
+                    <h4>Experiencia Profesional</h4>
+                    <ul>
+                        <li>2014 - 2017 Secretaria Técnica del Comité de Recursos Humanos en el Clúster de Energía Coahuila A. C.</li>
+                        <li>2004 - 2013 Enlace de INEGI con el Gobierno del Estado de Coahuila. </li>
+                        <li>2013 – 2014 Directora de Planeación en la Secretaría del Trabajo del Gobierno del Estado de Coahuila.</li>
+                        <li>2010 – 2012 Coordinadora de Postgrado en la Facultad de Economía de la Universidad Autónoma de Coahuila.</li>
+                        <li>2008 – 2012 Docente de Materias en Economía, Cuentas Nacionales y Población en la Universidad Autónoma de Coahuila.</li>
+                        <li>2010 Asesora. Estudio sobre el Desarrollo de la Región Noreste en la Consultoría Demoanalítica, S.C.</li>
+                        <li>2010 - 2013 Asesora en Indicadores de Competitividad para México en el Centro de Estudios para la Competitividad. Partner lnstitute del IMD - WCC en México.</li>
+                        <li>2001 - 2004 Jefa de Proyectos en Planeación y Operación en el Instituto Coahuilense de las Mujeres.</li>
+                    </ul>
+                </div>
+                <div class="icon-comite"></div>
+            </div>
+            <div class="miembro" id="m1">
+                <div class="close-it">+</div>
+                <div class="info">
+                    <h2 class="nombre">José Armando Plata Sandoval</h2>
+                    <h3 class="puesto">Auditor Superior del Estado de Coahuila de Zaragoza.</h3>
+                </div>
+                <div class="foto"><img src="http://www.seacoahuila.org.mx/theme/images/cc-asec-japs.jpg"></div>
+                <div class="bio">
+                    <h4>Datos Profesionales</h4>
+                    <ul>
+                        <li>Contador Público Certificado.</li>
+                        <li>Contador de Comercio.</li>
+                        <li>Contador Público Certificado.</li>
+                        <li>Maestro en Impuestos.</li>
+                        <li>Maestro en Gestión Pública Aplicada.</li>
+                        <li>Doctor en Administración y Alta Dirección.</li>
+                    </ul>
+                    <h4>Trayectoria Laboral</h4>
+                    <ul>
+                        <li>En el Sector Privado de 1972 a 1993. Diversos puestos administrativos y directivos en la industria automotriz, minero metalúrgica y harinera; despacho contable y fiscal propio.</li>
+                        <li>En el Sector Público del Gobierno del Estado de Coahuila de 1993 a la fecha. Director de Auditoría Fiscal del Estado, Subcontador Mayor de Hacienda, Coordinador de Asesores de la Secretaría de Finanzas, Subsecretario de Auditoría Gubernamental de la Secretaría de la Función Pública y actualmente Auditor Superior del Estado.</li>
+                    </ul>
+                    <h4>Trayectoria Institucional</h4>
+                    <ul>
+                        <li>Colegio de Contadores Públicos de Saltillo, A.C. - Presidente del Consejo Directivo (1992 – 1993)</li>
+                        <li>Instituto Mexicano de Contadores Públicos A. C. - Vicepresidente de Sector Gubernamental en diversos periodos: 2007-2009, 2011-2014.</li>
+                        <li>Asociación Nacional de Organismos de Fiscalización Superior y Control Gubernamental (ASOFIS). Consejero directivo del año 2008 al 2018; actualmente, Coordinador de la Región Norte e integrante de la Comisión Permanente de la ASOFIS, para el periodo 2018-2020.</li>
+                        <li>Consejo Nacional de Armonización Contable - Integrante del Comité Consultivo y sus grupos de trabajo (2009-2018) y Coordinador del grupo de trabajo de Contabilidad Gubernamental (2011-2014).</li>
+                        <li>Sistema Nacional de Fiscalización - Integrante de diversas instancias del SNF desde 2012-2018; Para el periodo 2017-2019 integrante del Comité Rector del Sistema Nacional de Fiscalización e integrante del grupo de trabajo de Creación de Capacidades.</li>
+                    </ul>
+                    <h4>Trayectoria Académica</h4>
+                    <p>Ha fungido como docente en diversas universidades:</p>
+                    <ul>
+                        <li>Facultades Universitarias de Saltillo (1983 – 1984)</li>
+                        <li>Universidad Autónoma del Noreste (1985 – 1990)</li>
+                        <li>Universidad Autónoma Anáhuac - Mayab (2013 – 2014)</li>
+                        <li>Universidad Autónoma de Coahuila (1990, 2014)</li>
+                        <li>Creación de Diplomados en Contabilidad Gubernamental y Disciplina Financiera e Índice de Información Presupuestal Municipal bajo Convenio con la Secretaria de Hacienda y Crédito Público y la Asociación Nacional de Organismos de Fiscalización Superior y Control Gubernamental con alcance de 110 mil usuarios del sector público a nivel nacional.</li>
+                    </ul>
+                </div>
+                <div class="icon-comite"></div>
+            </div>
+            <div class="miembro" id="m3">
+                <div class="close-it">+</div>
+                <div class="info">
+                    <h2 class="nombre">Maestro Jesús Homero Flores Mier</h2>
+                    <h3 class="puesto">Titular de la Fiscalía Especializada en Delitos por Hechos de Corrupción.</h3>
+                </div>
+                <div class="foto"><img src="http://www.seacoahuila.org.mx/theme/images/cc-fech-jhfm.jpg"></div>
+                <div class="bio">
+                    <h4>Formación Académica</h4>
+                    <ul>
+                        <li>Es Maestro y Licenciado en Derecho, por la Facultad de Jurisprudencia de la Universidad Autónoma de Coahuila.</li>
+                        <li>Es el Titular de la Fiscalía Especializada en Delitos por Hechos de Corrupción del Estado de Coahuila de Zaragoza.</li>
+                        <li>Es Presidente de la Comisión de Políticas Publicas y estudios en Materia de Prevención, Detección, Evaluación, e Investigación de Delitos de la Convención Nacional de Fiscales Anticorrupción.</li>
+                        <li>Anteriormente fungió como Comisionado Presidente del Instituto Coahuilense de Acceso a la Información Pública del Estado de Coahuila de Zaragoza.</li>
+                    </ul>
+                    <h4>Ha cursado las maestrías en</h4>
+                    <ul>
+                        <li>Derechos Humanos con acentuación en Gobierno Abierto y Rendición de Cuentas en la Facultad de Jurisprudencia;</li>
+                        <li>Gobernanza y Derechos Humanos en la Universidad Autónoma del Noreste.</li>
+                    </ul>
+                    <h4>Ha tomado diversos cursos como</h4>
+                    <ul>
+                        <li>Taller de Gerencia Política de Proyectos de Cambio, The George Washington University, en Washington, D.C.</li>
+                        <li>Curso Internacional sobre "Gobierno Abierto" en la subsede de la Comisión Económica para América Latina y el Caribe - CEPAL;</li>
+                        <li>Modulo sobre Derecho Penal "Nueva Legislación para la Procuración de Justicia y Seguridad Pública".</li>
+                        <li>Seminario "Constitución, Democracia y Elecciones: La Reforma que Viene" en el Instituto de Investigaciones Jurídicas de la UNAM.</li>
+                        <li>Cuarto Foro Regional de Difusión del Código Modelo del Proceso Penal Acusatorio para los Estados de la Federación, impartido por el Poder Judicial del Estado de Coahuila de Zaragoza y la Comisión Nacional de Tribunales Superiores de Justicia.</li>
+                    </ul>
+                    <h4>Se desempeñó como</h4>
+                    <ul>
+                        <li>Coordinador y Fundador de la Comisión de Gestión Documental, Tecnologías de la Información y Gobierno Abierto de la Conferencia Mexicana para el Acceso a la Información.</li>
+                        <li>Integrante de la Comisión de Indicadores, Evaluación e Investigación y Comisión de Archivos y Gestión Documental.</li>
+                        <li>Coordinador de los Institutos de Transparencia del País representándolos en la transición al actual Sistema Nacional de Transparencia.</li>
+                        <li>Representante en el Consejo Nacional de Archivos de los Institutos y Consejos Estatales de Transparencia.</li>
+                        <li>Ha impartido diversas pláticas y conferencias en relación a temas en materia de anticorrupción, de acceso a la información, datos personales, redes sociales y archivos, en eventos Internacionales y Nacionales, organizadas por Instituciones especialistas en las materias.</li>
+                    </ul>
+                </div>
+                <div class="icon-comite"></div>
+            </div>
+            <div class="miembro" id="m6">
+                <div class="close-it">+</div>
+                <div class="info">
+                    <h2 class="nombre">Teresa Guajardo Berlanga</h2>
+                    <h3 class="puesto">Secretaria de Fiscalización y Rendición de Cuentas del Estado de Coahuila de Zaragoza.</h3>
+                </div>
+                <div class="foto"><img src="http://www.seacoahuila.org.mx/theme/images/cc-sefirc-tgb.jpg"></div>
+                <div class="bio">
+                    <h4>Formación Académica</h4>
+                    <ul>
+                        <li>Es Licenciada en Derecho por la Facultad de Jurisprudencia de la Universidad Autónoma de Coahuila.</li>
+                    </ul>
+                    <h4>Cuenta con diversos diplomados, tales como</h4>
+                    <ul>
+                        <li>Diplomado en Transparencia y Buen Gobierno por el Instituto Tecnológico de Estudios Superiores de Monterrey.</li>
+                        <li>Diplomado en Políticas Públicas, Gerencia y Gobierno Local por el Colegio Nacional de Ciencias Políticas y Administración Pública A.C.</li>
+                        <li>Diplomado en materia de Derechos Humanos por la Universidad Autónoma de Coahuila, Comisión Nacional de Derechos Humanos y Comisión de Derechos Humanos del Estado de Coahuila Cuenta con certificación en materia de Protección de Datos Personales en posesión de los particulares por el Instituto Nacional de Acceso a la Información.</li>
+                        <li>Diplomado Virtual de Contabilidad Gubernamental por la Asociación Nacional de Organismos de Fiscalización Superior y Control Gubernamental A.C.</li>
+                    </ul>
+                    <h4>Otras Actividades Profesionales</h4>
+                    <ul>
+                        <li>Fue Presidenta del Instituto Coahuilense de Acceso a la Información Pública; del cual formó parte activa durante 13 años.</li>
+                        <li>Coordinó la Comisión de Educación de la COMAIP, impulso una nueva Ley de Acceso a la Información Pública y Protección de Datos Personales ante el Congreso del Estado de Coahuila de Zaragoza, convirtiéndose nuestro Estado y su Legislación referentes a nivel nacional en la materia.</li>
+                        <li>Dentro del Sistema Nacional de Transparencia ocupo la Secretaria Técnica de la Comisión de los Derechos Humanos, Equidad de Género e Inclusión Social.</li>
+                        <li>En el aspecto académico ha desempeñado actividades de docencia en educación universitaria de Instituciones Públicas y Privadas de la Región Carbonífera y de la Capital del Estado de Coahuila.</li>
+                        <li>Es Conferencista en materia de Transparencia, Acceso a la Información, Rendición de Cuentas y Protección de Datos Personales y ha escrito diversos artículos publicados en un medio de comunicación.</li>
+                    </ul>
+                </div>
+                <div class="icon-comite"></div>
+            </div>
+            <div class="miembro" id="m5">
+                <div class="close-it">+</div>
+                <div class="info">
+                    <h2 class="nombre">Miriam Cárdenas Cantú</h2>
+                    <h3 class="puesto">Presidenta del Tribunal Superior de Justicia y del Consejo de la Judicatura del Poder Judicial del Estado de Coahuila de Zaragoza.</h3>
+                </div>
+                <div class="foto"><img src="http://www.seacoahuila.org.mx/theme/images/cc-pjecz-mcc.jpg"></div>
+                <div class="bio">
+                    <h4>Formación Académica</h4>
+                    <ul>
+                        <li>Licenciada en Derecho</li>
+                        <li>Maestría en Administración</li>
+                    </ul>
+                    <h4>Experiencia Laboral</h4>
+                    <ul>
+                        <li>Diputada Federal y Presidenta de la Comisión de Derechos Humanos de la Cámara de Diputados. Congreso de la Unión (2012 a 2015).</li>
+                        <li>Magistrada Numeraria de la Sala Colegiada Civil y Familiar del Tribunal Superior de Justicia del Estado de Coahuila de Zaragoza (2005 a 2012).</li>
+                        <li>Magistrada Presidenta de la Sala Colegiada Civil y Familiar del Tribunal Superior DE Justicia del Estado de Coahuila (2006-2007).</li>
+                        <li>Consejera Consultiva de la Comisión Nacional de los Derechos Humanos (2006 a 2011).</li>
+                        <li>Presidenta de la Comisión de Derechos Humanos del Estado de Coahuila (Segundo periodo por ratificación del Congreso del Estado de Coahuila – 2003 a 2005).</li>
+                        <li>Presidenta de la Comisión de Derechos Humanos del Estado de Coahuila (Primer Periodo – 2001 a 2003).</li>
+                        <li>Consejera Titular de la Comisión de Derechos Humanos del Estado de Coahuila (1998 a 2001).</li>
+                        <li>Abogada postulante (1998 a 2001).</li>
+                        <li>Secretaría Técnica de la Contraloría Social de la Mujer en Coahuila (1996 – 1999).</li>
+                        <li>Consejera Unitaria de Saltillo del Consejo de Menores en el Estado de Coahuila (1994 a 1996).</li>
+                        <li>Presidenta Supernumeraria del Consejo de Menores en el Estado de Coahuila (1994 -1996).</li>
+                        <li>Jefa de Recursos Humanos del Hospital Universitario de Saltillo (1990 – 1993).</li>
+                        <li>Oficial de Partes de la Dirección Estatal del Registro Civil del Estado de Coahuila (1990).</li>
+                        <li>Asesor Jurídico del Oficial Mayor de la Universidad Autónoma de Coahuila (1987 a 1989).</li>
+                    </ul>
+                    <h4>Otras Actividades Profesionales</h4>
+                    <ul>
+                        <li>Coordinadora de la Región Sureste de la Fundación de la Universidad Autónoma de Coahuila (2013 a 2014).</li>
+                        <li>Integrante del Frente Parlamentario Contra el Hambre Capítulo México (2012 a 2014).</li>
+                        <li>Integrante de la Red de Mujeres Parlamentarias de las Américas.</li>
+                        <li>Vicepresidenta Continental de la Comisión de Derechos Humanos, Pueblos Indígenas y Seguridad de los Ciudadanos de la Confederación Parlamentaria de las Américas.</li>
+                        <li>Integrante del Mecanismo de Protección de Personas Defensoras de Derechos Humanos y Periodistas. (Por ministro de ley)</li>
+                        <li>Integrante de la Comisión redactora del proyecto de reformas al Código Civil de Coahuila en materia de Adopciones (2007).</li>
+                        <li>Coordinadora General del Consejo Interinstitucional para la Actualización del Marco Jurídico de la Comisión de Derechos Humanos del Estado de Coahuila, y de la Comisión Redactora del Proyecto de la nueva Ley Orgánica de la CEDHC (2005).</li>
+                        <li>Integrante del Programa Internacional de Visitantes Distinguidos del Departamento del Estado de los Estados Unidos de Norteamérica (2005).</li>
+                        <li>Presidenta de la Federación Mexicana de Organismos Públicos de Derechos Humanos (2005).</li>
+                        <li>Tesorera de la Federación Mexicana de Organismos Públicos de Derechos Humanos (2003 a 2005).</li>
+                        <li>Coordinadora General de la Comisión para elaborar el Proyecto del Manual de Supervisión Carcelaria para el Estado de Coahuila (Documento que sirvió de modelo al Manual de Supervisión penitenciaria de la CNDH - 2003).</li>
+                        <li>Diputado Local Suplente (1999 a 2002).</li>
+                        <li>Presidenta de la Asociación de Licenciados en Derecho de Coahuila, A.C. (1997 a 1998).</li>
+                        <li>Socia Fundadora del Patronato para la Atención de Jóvenes en Situación Crítica. Centro de Rehabilitación Mejores Caminos (1995).</li>
+                        <li>Accionista del Grupo Principal que agrupa los Restaurantes El Principal, Mesón del Principal, El Chivatito, Don Artemio y Salón de Eventos Villa Ferré (1992 a la fecha).</li>
+                        <li>Gerente General del Restaurante El Chivatito Principal (1993 a 1994).</li>
+                        <li>Gerente General del Restaurante El Principal Saltillo, Coahuila (1996 a 2001).</li>
+                    </ul>
+                    <h4>Actividades Académicas</h4>
+                    <ul>
+                        <li>Catedrática de "Derecho Familiar" en la Facultad de Jurisprudencia de la Universidad Autónoma de Coahuila.</li>
+                        <li>Catedrática de "Derecho Penal I" en la Universidad Autónoma del Noreste.</li>
+                        <li>Catedrática de "Derecho Laboral" en la Escuela de Trabajo Social de la Universidad Autónoma de Coahuila.</li>
+                    </ul>
+                    <h4>Publicaciones y Artículos</h4>
+                    <ul>
+                        <li>"Derechos Humanos de las Personas con Capacidades Diferentes". Revista Puntos. Publicación Secretaría de Educación Pública del Estado de Coahuila.</li>
+                        <li>"Violencia en los Cuerpos Policíacos". Revista Puntos. IDEM.</li>
+                        <li>"Derechos a la Maternidad en Prisión". Revista de la Facultad de Jurisprudencia de la UA de C.</li>
+                        <li>"Derechos Humanos y Mujer". Revista Tú como nosotras del Gobierno del Estado de Coahuila.</li>
+                        <li>"Que son los Derechos Humanos". Revista Mujeres. Publicación del Gobierno del Estado de Coahuila.</li>
+                        <li>"Los Derechos Políticos desde la Perspectiva de los Derechos Humanos". Revista Jurídica. Publicación de la Asociación de Licenciadas en Derecho de Coahuila. A.C.</li>
+                        <li>"Derecho a un Entorno Bello". Publicación de la Comisión Estatal de Derechos Humanos de Nuevo León.</li>
+                        <li>"Hacer Efectivos los Derechos Humanos". Publicación de la Suprema Corte de Justicia de la Nación.</li>
+                    </ul>
+                    <h4>Distinciones Obtenidas</h4>
+                    <ul>
+                        <li>Presea "María Rebonato" por Excelencia Académica Facultad de Jurisprudencia de la Universidad Autónoma de Coahuila (2014).</li>
+                        <li>Premio del Búho 2012 por destacada trayectoria en Derechos Humanos. Facultad de Jurisprudencia de la Universidad Autónoma de Coahuila (2012).</li>
+                        <li>Reconocimiento por su compromiso y labor profesional en la promoción efectiva y defensa de los derechos fundamentales en nuestro país, al ser parte esencial del Consejo Consultivo de la CNDH por la Comisión Nacional de los Derechos Humanos (2011).</li>
+                        <li>Reconocimiento como Mujer Destacada de Coahuila, por el Instituto Coahuilense de las Mujeres (2008).</li>
+                        <li>Reconocimiento a la trayectoria Jurídica, por la Asociación de Licenciadas en Derecho de Coahuila, A. C. (2007).</li>
+                        <li>Reconocimiento a la trayectoria profesional, por la Federación de Barras, Colegios y Asociaciones de Abogados del Estado de Coahuila (2006).</li>
+                        <li>Reconocimiento del H. Ayuntamiento de Cuernavaca 2003 – 2006 por labor, entrega y entusiasmo a favor de los derechos humanos (2005).</li>
+                        <li>Reconocimiento por excelente desempeño como Tesorera de la Federación Mexicana de Organismos Públicos de Derechos Humanos, así como su activa labor a favor de la defensa y promoción de los Derechos Fundamentales. Por la Federación Mexicana de Organismos Públicos de Derechos Humanos (2005).</li>
+                        <li>Reconocimiento al Mérito Académico por haber obtenido el promedio de calificaciones más alto de la generación 1981 – 1986 de la Facultad de Jurisprudencia de la Universidad Autónoma de Coahuila (1986).</li>
+                    </ul>
+                </div>
+                <div class="icon-comite"></div>
+            </div>
+            <div class="miembro" id="m4">
+                <div class="close-it">+</div>
+                <div class="info">
+                    <h2 class="nombre">Luis González Briseño</h2>
+                    <h3 class="puesto">Comisionado Presidente del Instituto Coahuilense de Acceso a la Información Pública.</h3>
+                </div>
+                <div class="foto"><img src="http://www.seacoahuila.org.mx/theme/images/cc-icai-lgb.jpg"></div>
+                <div class="bio">
+                    <h4>Formación Académica</h4>
+                    <ul>
+                        <li>Licenciado en Derecho por la Facultad de Jurisprudencia de la Universidad Autónoma de Coahuila.</li>
+                        <li>Maestro en Derecho Fiscal por la Universidad del Valle de México.</li>
+                        <li>Master en Normativa de Protección de Datos en el Sector Sanitario por la Universidad de Cádiz, España.</li>
+                        <li>Especialista en Protección de Datos Personales y Privacidad por la Universidad de Murcia, España.</li>
+                    </ul>
+                    <h4>Experiencia Profesional</h4>
+                    <ul>
+                        <li>Comisionado Presidente del ICAI.</li>
+                        <li>Miembro de la Asociación Profesional Española de Privacidad, con sede en España.</li>
+                        <li>Miembro de la Comisión de Datos Personales de la Conferencia Mexicana para el Acceso a la Información Pública.</li>
+                    </ul>
+                    <h4>Publicaciones</h4>
+                    <ul>
+                        <li>Dentro de publicaciones se encuentran el artículo de opinión titulado "Clasificación de las boletas electorales como dato personal". publicado en la Revista Lex, julio-agosto 2011.</li>
+                        <li>"Evolución constitucional del derecho a la información y del derecho de acceso a la información pública en México", publicado en la Revista Lex, abril-mayo 2012.</li>
+                    </ul>
+                    <h4>Participación en congresos, encuentros y seminarios</h4>
+                    <ul>
+                        <li>Participó en el curso "El Derecho a la Protección de Datos Personales", impartido por la Agencia Española de Protección de Datos y la Fundación CEDDET.</li>
+                        <li>Colaboró como ponente en el "7o Congreso Nacional de Organismos Públicos Autónomos", realizado en la ciudad de Puebla, Puebla.</li>
+                    </ul>
+                </div>
+                <div class="icon-comite"></div>
+            </div>
+            <div class="miembro" id="m7">
+                <div class="close-it">+</div>
+                <div class="info">
+                    <h2 class="nombre">Sandra Luz Rodríguez Wong</h2>
+                    <h3 class="puesto">Magistrada Presidenta del Tribunal de Justicia Administrativa de Coahuila de Zaragoza.</h3>
+                </div>
+                <div class="foto"><img src="http://www.seacoahuila.org.mx/theme/images/cc-tjacz-slrw.jpg"></div>
+                <div class="bio">
+                    <h4>Formación Académica</h4>
+                    <ul>
+                        <li>Es Licenciada en Derecho y Maestra en Derecho Fiscal por la Facultad de Jurisprudencia de la Universidad Autónoma de Coahuila.</li>
+                        <li>Es también Mediador Acreditado ante el Instituto de Mediación de México.</li>
+                        <li>Actualmente, es candidata a Doctor en Derecho Constitucional, por la Universidad Autónoma del Noreste y Catedrática de la Facultad de Jurisprudencia de la Universidad Autónoma de Coahuila.</li>
+                    </ul>
+                    <h4> Ha desempeñado diversos cargos públicos </h4>
+                    <ul>
+                        <li>En el ámbito municipal, colaboró como apoderada jurídica del Sistema para el Desarrollo Integral de la Familia del municipio de Saltillo.</li>
+                        <li>Ha colaborado en Organismos Autónomos como en el Instituto federal electoral, fungió también como Secretario abogado de la Procuraduría electoral y como Primer Visitador de la Comisión de Derechos Humanos del Estado</li>
+                        <li>En el ámbito federal, ocupó en su momento, la Dirección del Bufete Jurídico de asesoría Gratuita</li>
+                        <li>En el servicio público estatal ocupó la Subdireccción de la Defensoría de Oficio en materia penal, y posteriormente la Subdirección de la Unidad de Defensa Civil y Familiar. Años mas tarde, se hace cargo del despacho de la Dirección de la Propia Defensoría</li>
+                        <li>Fue también; Directora de Notarías del estado, Directora Estatal del Registro Civil, Administradora Central del Registro Público y Consejera Jurídica del Estado.</li>
+                    </ul>
+                </div>
+                <div class="icon-comite"></div>
+            </div>        </div>
+    </div>
+    <!-- Comunicados -->
+    <div id="comunicados" class="contenedor-horizontal inicio-comunicados-redes clearfix ">
+        <div class="wrap">
+            <div class="comunicados-home">
+                <h1></h1>
+                <!-- Comunicados indice -->
+                <div class="comunicado"> <a href="http://www.seacoahuila.org.mx/publicaciones/2019-06-24-entrevista-lourdes-morales-garcia/">
+                    <div class="imagen">
+                        <img src="http://www.seacoahuila.org.mx/publicaciones/2019-06-24-entrevista-lourdes-morales-garcia/preview.jpg" class="card-img-top" alt="Imagen previa">
+                    </div>
+                    <div class="info">
+                        <h2>Entrevista con Lourdes Morales Canales</h2>
+                        <p class="fecha">24 junio 2019</p>
+                        <p>Lourdes Morales es una de las académicas y activistas más importantes en el área de tranparencia y acceso a la información pública, es doctora en ciencia política por la la Sorbonne París III. En esta entrevista, la directora de la Red por la Rendición de Cuentas hace un balance, desde todos los frentes, del SNA.</p>
+                    </div>
+                </a> </div>
+                <!-- Comunicados indice -->
+                <div class="comunicado"> <a href="http://www.seacoahuila.org.mx/publicaciones/2019-06-17-tribunal-justicia-administrativa-nueva-forma-impartir-justicia/">
+                    <div class="imagen">
+                        <img src="http://www.seacoahuila.org.mx/publicaciones/2019-06-17-tribunal-justicia-administrativa-nueva-forma-impartir-justicia/preview.jpg" class="card-img-top" alt="Imagen previa">
+                    </div>
+                    <div class="info">
+                        <h2>Tribunal de Justicia Administrativa de Coahuila: Una Nueva Forma de Impartir Justicia</h2>
+                        <p class="fecha">17 junio 2019</p>
+                        <p>Ante la percepción ciudadana de que la corrupción es uno de los principales problemas nacionales, Gobierno y distintos sectores de la sociedad decidieron sumar esfuerzos para enfrentar y abatir este fenómeno.</p>
+                    </div>
+                </a> </div>
+                <!-- Comunicados indice -->
+                <div class="comunicado"> <a href="http://www.seacoahuila.org.mx/comunicados/2019-06-11-impacto-reto-100-dias/">
+                    <div class="imagen">
+                        <img src="http://www.seacoahuila.org.mx/comunicados/2019-06-11-impacto-reto-100-dias/preview.jpg" class="card-img-top" alt="Imagen previa">
+                    </div>
+                    <div class="info">
+                        <h2>El Impacto del Reto 100 Días en el Sistema Anticorrupción del Estado de Coahuila de Zaragoza</h2>
+                        <p class="fecha">11 junio 2019</p>
+                        <p>El Sistema Anticorrupción del Estado de Coahuila de Zaragoza, a iniciativa del Consejo de Participación Ciudadana y por acuerdo de las instancias que lo integran, implementa desde el pasado 27 de febrero, el Proyecto llamado "Reto 100 días" cuyo propósito es incrementar la visibilidad y confianza del trabajo coordinado entre sociedad y gobierno.</p>
+                    </div>
+                </a> </div>
+                <!-- Comunicados indice -->
+                <div class="comunicado"> <a href="http://www.seacoahuila.org.mx/publicaciones/2019-06-11-poder-judicial-coahuila-nuevos-retos-compromisos-contra-corrupcion/">
+                    <div class="imagen">
+                        <img src="http://www.seacoahuila.org.mx/publicaciones/2019-06-11-poder-judicial-coahuila-nuevos-retos-compromisos-contra-corrupcion/preview.jpg" class="card-img-top" alt="Imagen previa">
+                    </div>
+                    <div class="info">
+                        <h2>Poder Judicial de Coahuila: Nuevos Retos y Compromisos contra la Corrupción</h2>
+                        <p class="fecha">11 junio 2019</p>
+                        <p>El Consejo de la Judicatura ha sido dotado de nuevas herramientas que le permiten asumir el reto de participar en la estrategia de combate a la corrupción.</p>
+                    </div>
+                </a> </div>
+                <!-- Comunicados indice -->
+                <div class="comunicado"> <a href="http://www.seacoahuila.org.mx/publicaciones/2019-06-03-sistema-nacional-fiscalizacion/">
+                    <div class="imagen">
+                        <img src="http://www.seacoahuila.org.mx/publicaciones/2019-06-03-sistema-nacional-fiscalizacion/preview.jpg" class="card-img-top" alt="Imagen previa">
+                    </div>
+                    <div class="info">
+                        <h2>Sistema Nacional de Fiscalización: Una Perspectiva desde la Auditoría Superior de Coahuila</h2>
+                        <p class="fecha">03 junio 2019</p>
+                        <p>Aunque se han establecido las bases, aún persisten retos sustanciales para el Sistema Nacional de Fiscalización en los rubros de la calidad de la información, auditorías al desempeño, dotar de nuevas facultades de fiscalización y el combate a la corrupción.</p>
+                    </div>
+                </a> </div>
+                <!-- Comunicados indice -->
+                <div class="comunicado"> <a href="http://www.seacoahuila.org.mx/publicaciones/2019-05-28-ciudadania-sistema-anticorrupcion-mexico/">
+                    <div class="imagen">
+                        <img src="http://www.seacoahuila.org.mx/publicaciones/2019-05-28-ciudadania-sistema-anticorrupcion-mexico/preview.jpg" class="card-img-top" alt="Imagen previa">
+                    </div>
+                    <div class="info">
+                        <h2>La Ciudadanía en el Sistema Anticorrupción en México</h2>
+                        <p class="fecha">28 mayo 2019</p>
+                        <p>Las y los ciudadanos lograron incidir en la política nacional de la mano de los legisladores creando el Sistema Nacional Anticorrupción y sus leyes secundarias, donde la participación ciudadana tiene un papel preponderante al encauzar los esfuerzos institucionales y ser el vínculo con la sociedad civil.</p>
+                    </div>
+                </a> </div>
+                <!-- Comunicados paginacion -->
+                <nav class="paginacion">
+                    <ul class="pagination justify-content-center">
+                        <li class="page-item">
+                            <a class="page-link" href="http://www.seacoahuila.org.mx/index.html">
+                                1
+                            </a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="http://www.seacoahuila.org.mx/index2.html">
+                                2
+                            </a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="http://www.seacoahuila.org.mx/index3.html">
+                                3
+                            </a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" aria-label="Next" href="http://www.seacoahuila.org.mx/index2.html">
+                                <span aria-hidden="true">&raquo;</span>
+                                <span class="sr-only">Siguiente</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="redes">
+                <div class="facebook">
+                    <div class="col-l fa"></div>
+                    <div class="col-r">
+                        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fseseacoah%2F&tabs=timeline&width=340&height=500&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+                    </div>
+                </div>
+                <div class="twitter">
+                    <div class="col-l fa"></div>
+                    <div class="col-r"> <a class="twitter-timeline" data-lang="es" data-height="490" data-link-color="#3B6038" href="https://twitter.com/seseacoah?ref_src=twsrc%5Etfw">Tweets by seseacoah</a>
+                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Destacados -->
+    <div class="contenedor-horizontal bloque-navegacion clearfix ">
+        <div class="nivel">
+            <h4>Comité Coordinador</h4>
+            <ul class="links">
+                <li><a href="http://www.seacoahuila.org.mx/cc/institucional/que-es-el-cc/">
+                    <div class="icon"><img src="theme/images/destacados-que-es.png" alt="Que es el CC"></div>
+                    <p>¿QUÉ ES EL CC?</p>
+                </a></li>
+                <li><a href="http://www.seacoahuila.org.mx/cc/planes/plan-de-trabajo-cc-2018/">
+                    <div class="icon"><img src="theme/images/destacados-plan-de-trabajo.png" alt="Plan de Trabajo del CC"></div>
+                    <p>PLAN DE TRABAJO</p>
+                </a></li>
+                <li><a href="http://www.seacoahuila.org.mx/cc/informes/2018-informe-anual/">
+                    <div class="icon"><img src="theme/images/destacados-informe-anual.png" alt="Informe Anual del CC"></div>
+                    <p>Informe Anual</p>
+                </a></li>
+                <li><a href="http://www.seacoahuila.org.mx/cc/infografias/">
+                    <div class="icon"><img src="theme/images/destacados-datos.png" alt="Infográficas"></div>
+                    <p>INFOGRÁFICAS</p>
+                </a></li>
+            </ul>
+        </div>
+        <div class="nivel">
+            <h4>Consejo de Participación Ciudadana</h4>
+            <ul class="links">
+                <li><a href="http://www.seacoahuila.org.mx/cpc/institucional/que-es-el-cpc/">
+                    <div class="icon"><img src="theme/images/destacados-que-es.png" alt="Que es el CPC"></div>
+                    <p>¿QUÉ ES EL CPC?</p>
+                </a></li>
+                <li><a href="http://www.seacoahuila.org.mx/cpc/planes/plan-de-trabajo-cpc-2019/">
+                    <div class="icon"><img src="theme/images/destacados-plan-de-trabajo.png" alt="Plan de Trabajo del CPC"></div>
+                    <p>PLAN DE TRABAJO</p>
+                </a></li>
+                <li><a href="http://www.seacoahuila.org.mx/cpc/declaraciones/3-de-3/">
+                    <div class="icon"><img src="theme/images/destacados-declaracion-3-de-3.png" alt="Declaraciones 3 de 3"></div>
+                    <p>DECLARACIONES 3 DE 3</p>
+                </a></li>
+                <li><a href="http://www.seacoahuila.org.mx/cpc/institucional/documentos-cpc/">
+                    <div class="icon"><img src="theme/images/destacados-documentos.png" alt="Documentos CPC"></div>
+                    <p>DOCUMENTOS</p>
+                </a></li>
+                <li><a href="http://www.seacoahuila.org.mx/cpc/infografias/">
+                    <div class="icon"><img src="theme/images/destacados-datos.png" alt="Infográficas"></div>
+                    <p>INFOGRÁFICAS</p>
+                </a></li>
+                <li><a href="http://www.seacoahuila.org.mx/cpc/institucional/contacto-cpc/">
+                    <div class="icon"><img src="theme/images/destacados-contacto.png" alt="Contacto CPC"></div>
+                    <p>CONTACTO</p>
+                </a></li>
+            </ul>
+        </div>
+        <div class="nivel">
+            <h4>Secretaría Ejecutiva</h4>
+            <ul class="links">
+                <li><a href="http://www.seacoahuila.org.mx/secretaria-ejecutiva/institucional/que-es-la-secretaria-ejecutiva/">
+                    <div class="icon"><img src="theme/images/destacados-que-es.png" alt="Que es la SE"></div>
+                    <p>¿QUÉ ES LA SE?</p>
+                </a></li>
+                <li><a href="http://www.seacoahuila.org.mx/secretaria-ejecutiva/planes/plan-de-trabajo-2019/">
+                    <div class="icon"><img src="theme/images/destacados-plan-de-trabajo.png" alt="Plan de Trabajo"></div>
+                    <p>PLAN DE TRABAJO</p>
+                </a></li>
+                <li><a href="http://www.seacoahuila.org.mx/secretaria-ejecutiva/capacitacion/2018-05-primera-capacitacion-y-difusion/">
+                    <div class="icon"><img src="theme/images/destacados-documentos.png" alt="Capacitación"></div>
+                    <p>CAPACITACIÓN</p>
+                </a></li>
+                <li><a href="http://www.seacoahuila.org.mx/secretaria-ejecutiva/publicaciones/">
+                    <div class="icon"><img src="theme/images/destacados-documentos.png" alt="Publicaciones"></div>
+                    <p>PUBLICACIONES</p>
+                </a></li>
+                <li><a href="http://www.seacoahuila.org.mx/secretaria-ejecutiva/infografias/">
+                    <div class="icon"><img src="theme/images/destacados-datos.png" alt="Infográficas"></div>
+                    <p>INFOGRÁFICAS</p>
+                </a></li>
+                <li><a href="http://www.seacoahuila.org.mx/secretaria-ejecutiva/institucional/contacto/">
+                    <div class="icon"><img src="theme/images/destacados-contacto.png" alt="Contacto"></div>
+                    <p>CONTACTO</p>
+                </a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- Transparencia -->
+    <div id="transparencia" class="contenedor-horizontal transparencia-externos clearfix ">
+        <div class="transparencia">
+            <h4>TRANSPARENCIA</h4>
+            <ul>
+                <li><a href="http://www.seacoahuila.org.mx/secretaria-ejecutiva/transparencia/">Información Pública de Oficio</a></li>
+                <li><a href="http://www.seacoahuila.org.mx/secretaria-ejecutiva/transparencia/art-21-01-estructura-organica/">Estructura orgánica</a></li>
+                <li><a href="http://www.seacoahuila.org.mx/secretaria-ejecutiva/transparencia/art-21-02-marco-normativo/">Marco Normativo</a></li>
+                <li><a href="http://www.seacoahuila.org.mx/secretaria-ejecutiva/transparencia/art-21-21-calendario-de-reuniones-publicas/">Calendario de Reuniones Públicas</a></li>
+                <li><a href="http://www.seacoahuila.org.mx/secretaria-ejecutiva/transparencia/art-21-22-unidad-de-transparencia-y-comite-de-transparencia/">Cómite de Transparencia</a></li>
+                <li><a href="http://www.seacoahuila.org.mx/secretaria-ejecutiva/transparencia-lgcg/">Transparencia LGCG</a></li>
+            </ul>
+        </div>
+        <div class="externos">
+            <h4>VÍNCULOS EXTERNOS</h4>
+            <ul>
+                <li><a href="http://www.cpccoahuila.org.mx/" target="_blank">Consejo de Participación Ciudadana</a></li>
+                <li><a href="http://sna.org.mx/" target="_blank">Sistema Nacional Anticorrupción</a></li>
+                <li><a href="http://guiaciudadanadelsna.org.mx/" target="_blank">Guía Ciudadana del SNA</a></li>
+                <li><a href="https://ethos.org.mx/es/ethos-publications/sna-y-el-nuevo-regimen-de-responsabilidades-2/" target="_blank">El SNA y el nuevo régimen de Responsabilidades</a></li>
+                <li><a href="https://www.plataformadetransparencia.org.mx/" target="_blank">Plataforma Nacional de Transparencia</a></li>
+            </ul>
+        </div>
+        <div class="quejasysugerencias">
+            <h4>QUEJAS Y SUGERENCIAS</h4>
+            <ul>
+                <li><a href="https://goo.gl/forms/v9fUknvCjxNUqNzA2" target="_blank">Formulario en Internet</a></li>
+                <li><a href="mailto:quejas.y.sugerencias@seacoahuila.org.mx">Correo electrónico</a></li>
+                <li><a href="#">Teléfono (844) 688 2178</a></li>
+                <li><a href="http://www.seacoahuila.org.mx/secretaria-ejecutiva/institucional/contacto/">Domicilio de la Secretaría Ejecutiva</a></li>
+            </ul>
+        </div>
+    </div>
+    <footer class="py-5 sea-bg-gray-dark">
+    <!-- Footer Mapa del Sitio -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <h5 class="footer-heading">Comunicados clasificados</h5>
+                <ul class="footer-list">
+                    <li><a class="footer-link" href="http://www.seacoahuila.org.mx/tag/capacitaciones.html">Capacitaciones</a></li>
+                    <li><a class="footer-link" href="http://www.seacoahuila.org.mx/tag/comision-ejecutiva.html">Comisión Ejecutiva</a></li>
+                    <li><a class="footer-link" href="http://www.seacoahuila.org.mx/tag/comite-coordinador.html">Comité Coordinador</a></li>
+                    <li><a class="footer-link" href="http://www.seacoahuila.org.mx/tag/consejo-de-participacion-ciudadana.html">Consejo de Participación Ciudadana</a></li>
+                    <li><a class="footer-link" href="http://www.seacoahuila.org.mx/tag/organo-de-gobierno.html">Órgano de Gobierno</a></li>
+                    <li><a class="footer-link" href="http://www.seacoahuila.org.mx/tag/presentaciones.html">Presentaciones</a></li>
+                    <li><a class="footer-link" href="http://www.seacoahuila.org.mx/tag/reuniones.html">Reuniones</a></li>
+                    <li><a class="footer-link" href="http://www.seacoahuila.org.mx/tag/secretaria-ejecutiva.html">Secretaría Ejecutiva</a></li>
+                    <li><a class="footer-link" href="http://www.seacoahuila.org.mx/tag/sesiones.html">Sesiones</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h5 class="footer-heading">Comité Coordinador</h5>
+                <ul class="footer-list">
+                    <li><a class="footer-link" href="http://www.seacoahuila.org.mx/cc/institucional/que-es-el-cc/">Qué es el CC</a></li>
+                    <li><a class="footer-link" href="http://www.seacoahuila.org.mx/cc/planes/">Planes de Trabajo</a></li>
+                    <li><a class="footer-link" href="http://www.seacoahuila.org.mx/cc/infografias/">Infográficas</a></li>
+                    <li><a class="footer-link" href="http://www.seacoahuila.org.mx/cc/informes/">Informes</a></li>
+                </ul>
+                <h5 class="footer-heading">Consejo de Participación Ciudadana</h5>
+                <ul class="footer-list">
+                    <li><a class="footer-link" href="http://www.seacoahuila.org.mx/cpc/institucional/que-es-el-cpc/">Qué es el CPC</a></li>
+                    <li><a class="footer-link" href="http://www.seacoahuila.org.mx/cpc/planes/">Planes de Trabajo</a></li>
+                    <li><a class="footer-link" href="http://www.seacoahuila.org.mx/cpc/declaraciones/3-de-3/">Declaraciones 3 de 3</a></li>
+                    <li><a class="footer-link" href="http://www.seacoahuila.org.mx/cpc/institucional/documentos-cpc/">Documentos</a></li>
+                    <li><a class="footer-link" href="http://www.seacoahuila.org.mx/cpc/infografias/">Infográficas</a></li>
+                    <li><a class="footer-link" href="http://www.seacoahuila.org.mx/cpc/institucional/contacto-cpc/">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h5 class="footer-heading">Secretaría Ejecutiva</h5>
+                <ul class="footer-list">
+                    <li><a class="footer-link" href="http://www.seacoahuila.org.mx/secretaria-ejecutiva/institucional/que-es-la-secretaria-ejecutiva/">Qué es la SE</a></li>
+                    <li><a class="footer-link" href="http://www.seacoahuila.org.mx/secretaria-ejecutiva/planes/">Planes de Trabajo</a></li>
+                    <li><a class="footer-link" href="http://www.seacoahuila.org.mx/secretaria-ejecutiva/capacitacion/">Capacitación</a></li>
+                    <li><a class="footer-link" href="http://www.seacoahuila.org.mx/secretaria-ejecutiva/infografias/">Infográficas</a></li>
+                    <li><a class="footer-link" href="http://www.seacoahuila.org.mx/secretaria-ejecutiva/publicaciones/">Publicaciones</a></li>
+                    <li><a class="footer-link" href="http://www.seacoahuila.org.mx/secretaria-ejecutiva/transparencia/">Transparencia</a></li>
+                    <li><a class="footer-link" href="http://www.seacoahuila.org.mx/secretaria-ejecutiva/transparencia-lgcg/">Transparencia LGCG</a></li>
+                    <li><a class="footer-link" href="http://www.seacoahuila.org.mx/secretaria-ejecutiva/institucional/contacto/">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h5 class="footer-heading">Contenido general</h5>
+                <ul class="footer-list">
+                    <li><a class="footer-link" href="http://www.seacoahuila.org.mx/general/terminos/aviso-de-privacidad-integral/">Aviso de privacidad integral</a></li>
+                    <li><a class="footer-link" href="http://www.seacoahuila.org.mx/general/terminos/informacion/">Términos de uso de la información</a></li>
+                    <li><a class="footer-link" href="http://www.seacoahuila.org.mx/general/terminos/sitio-web/">Términos del sitio web</a></li>
+                    <li><a class="footer-link" href="http://www.seacoahuila.org.mx/general/anuncios/vacantes/">Vacantes</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Footer Sistema Vínculos -->
+    <div class="container">
+        <a href="http://www.seacoahuila.org.mx/"><img src="http://www.seacoahuila.org.mx/theme/images/footer-saec.png" alt="Sistema Anticorrupción del Estado de Coahuila de Zaragoza"></a>
+        <a href="http://www.cpccoahuila.org.mx/" target="_blank"><img src="http://www.seacoahuila.org.mx/theme/images/footer-cpc.png" alt="Consejo de Participación Ciudadana"></a>
+        <a href="https://www.asecoahuila.gob.mx/" target="_blank"><img src="http://www.seacoahuila.org.mx/theme/images/footer-asec.png" alt="Auditoría Superior del Estado de Coahuila de Zaragoza"></a>
+        <a href="http://187.189.19.101:8080/WebPGJE/fiscalia-especializada-en-delitos-por-hechos-de-corrupcion.html" target="_blank"><img src="http://www.seacoahuila.org.mx/theme/images/footer-fech.png" alt="Fiscalía Especializada en Delitos por Hechos de Corrupción del Estado de Coahuila de Zaragoza"></a>
+        <a href="http://www.sefircoahuila.gob.mx/" target="_blank"><img src="http://www.seacoahuila.org.mx/theme/images/footer-sefirc.png" alt="Secretaría de Fiscalización y Rendición de Cuentas"></a>
+        <a href="https://www.pjecz.gob.mx/" target="_blank"><img src="http://www.seacoahuila.org.mx/theme/images/footer-pjec.png" alt="Poder Judicial del Estado de Coahuila de Zaragoza"></a>
+        <a href="http://www.icai.org.mx/" target="_blank"><img src="http://www.seacoahuila.org.mx/theme/images/footer-icai.png" alt="Instituto Coahuilense de Acceso a la Información Pública"></a>
+        <a href="http://www.tjacoahuila.org/" target="_blank"><img src="http://www.seacoahuila.org.mx/theme/images/footer-tjac.png" alt="Tribunal de Justicia Administrativa de Coahuila de Zaragoza"></a>
+    </div>
+    <!-- Footer Redes Sociales -->
+    <div class="container">
+        <p class="text-center">
+            <a class="footer-link" href="https://twitter.com/seseacoah" target="_blank"><i class="fa fa-twitter-square footer-fa"></i></a>
+            <a class="footer-link" href="https://www.facebook.com/seseacoah/" target="_blank"><i class="fa fa-facebook-square footer-fa"></i></a>
+            <a class="footer-link" href="https://www.youtube.com/channel/UCgzKc9c1F9ntPAi34XNfy4A" target="_blank"><i class="fa fa-youtube-square footer-fa"></i></a>
+            <a class="footer-link" href="https://github.com/seacoahuila" target="_blank"><i class="fa fa-github-square footer-fa"></i></a>
+            <a class="footer-link" href="http://www.seacoahuila.org.mx/feeds/all.rss.xml"><i class="fa fa-rss-square footer-fa"></i></a>
+        </p>
+    </div>
+    <!-- Footer Licencias -->
+    <div class="container">
+        <p class="footer-message">
+            <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+            <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">SEA Coahuila</span> 2018 por <a class="footer-link" xmlns:cc="http://creativecommons.org/ns#" href="http://www.seacoahuila.org.mx" property="cc:attributionName" rel="cc:attributionURL">Secretaría Ejecutiva del Sistema Anticorrupción del Estado de Coahuila de Zaragoza</a> se distribuye bajo una <a class="footer-link" rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Atribución-CompartirIgual 4.0 Internacional</a>.
+        </p>
+        <p class="footer-message">
+            El <a class="footer-link" href="https://github.com/SEACoahuila/plataforma.web" target="_blank">software libre que elabora este sitio web</a> se hace público con licencia <a class="footer-link" href="http://www.seacoahuila.org.mx/general/terminos/gpl/">GNU General Public License versión 3</a>.
+            Usa <a class="footer-link" href="http://getpelican.com/" target="_blank">Pelican</a> que está programado con <a class="footer-link" href="http://python.org">Python</a>.
+            Le invitamos a descargar y usar los repositorios de <a class="footer-link" href="https://github.com/seacoahuila" target="_blank">SEACoahuila en GitHub</a>.
+        </p>
+    </div>
     </footer>
-    <script src="http://www.seacoahuila.org.mx/theme/vendor/jquery/jquery.min.js"></script>
+    <script src="http://www.seacoahuila.org.mx/theme/vendor/jquery/jquery-3.3.1.min.js"></script>
     <script src="http://www.seacoahuila.org.mx/theme/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="http://www.seacoahuila.org.mx/theme/js/seacoahuila.js"></script>
+    <script src="http://www.seacoahuila.org.mx/theme/vendor/colorbox/jquery.colorbox-min.js"></script>
+    <script src="http://www.seacoahuila.org.mx/theme/vendor/slider/jquery.nivo.slider.pack.js"></script>
+    <script src="http://www.seacoahuila.org.mx/theme/js/seacoahuila-2019-02.js"></script>
 </body>
 </html>
