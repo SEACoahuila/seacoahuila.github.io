@@ -5,7 +5,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://www.seacoahuila.org.mx/</loc>
-<lastmod>2019-08-20T13:13:00-00:00</lastmod>
+<lastmod>2019-08-22T11:08:18-00:00</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -27,6 +27,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://www.seacoahuila.org.mx/cpc/declaraciones/3-de-3/</loc>
 <lastmod>2019-04-01T15:00:00-06:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://www.seacoahuila.org.mx/general/terminos/agpl/</loc>
+<lastmod>2019-08-22T10:54:00-05:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
