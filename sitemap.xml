@@ -5,7 +5,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://www.seacoahuila.org.mx/</loc>
-<lastmod>2019-09-03T12:17:27-00:00</lastmod>
+<lastmod>2019-09-09T14:08:40-00:00</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -699,6 +699,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://www.seacoahuila.org.mx/cc/planes/plan-de-trabajo-cc-2018/</loc>
 <lastmod>2018-06-13T11:25:00-05:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://www.seacoahuila.org.mx/cc/planes/plan-de-trabajo-cc-2019/</loc>
+<lastmod>2019-09-09T13:12:00-05:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
