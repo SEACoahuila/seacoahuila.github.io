@@ -2,12 +2,12 @@
 
 /* Global */
 body       { font-family: 'Roboto','Helvetica Neue',Arial,sans-serif; font-weight: 300; }
-h1         { font-size: 1.8rem; }
-h2         { font-size: 1.6rem; }
-h3         { font-size: 1.4rem; }
-h4         { font-size: 1.2rem; }
-h5         { font-size: 1.1rem; }
-h6         { font-size: 1.0rem; }
+h1         { font-size: 1.8rem; margin-top: 2.0rem; }
+h2         { font-size: 1.6rem; margin-top: 1.8rem; }
+h3         { font-size: 1.4rem; margin-top: 1.6rem; }
+h4         { font-size: 1.2rem; margin-top: 1.4rem; }
+h5         { font-size: 1.1rem; margin-top: 1.2rem; }
+h6         { font-size: 1.0rem; margin-top: 1.0rem; }
 strong     { font-family: Roboto,'Helvetica Neue',Arial,sans-serif; font-weight: 500; }
 blockquote { font-family: Roboto,'Helvetica Neue',Arial,sans-serif; font-weight: 300; font-size: 1.5em; }
 table      { width: 100%; }
@@ -45,7 +45,7 @@ a:visited  { color: #224422; text-decoration: none; }
 .comunicado-interior .imagen-principal { overflow: hidden; margin: 0; }
 .comunicado-interior .imagen-principal img { display: block; width: 100%; -webkit-border-radius: 15px 15px 0 0; border-radius: 15px 15px 0 0; margin: 0 0 -15% 0; }
 .comunicado-interior .contenido h1 { color: #3B6038; }
-.comunicado-interior .contenido p { font-size: 0.9rem; }
+.comunicado-interior .contenido p { font-size: 1rem; }
 .contenedor-horizontal.inicio-comunicados-redes { background-color: #3B6038; }
 .comunicados-home { background-color: white; padding: 2.4em 0.8em 2.4em 4em; width: 66%; float: left; border-radius: 15px 0 0 15px; min-height: 1050px; }
 .comunicados-home .comunicado { margin: 0; float: left; }
