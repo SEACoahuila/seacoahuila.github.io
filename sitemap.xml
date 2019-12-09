@@ -5,7 +5,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://www.seacoahuila.org.mx/</loc>
-<lastmod>2019-12-04T10:08:15-00:00</lastmod>
+<lastmod>2019-12-09T17:11:37-00:00</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -578,6 +578,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>https://www.seacoahuila.org.mx/secretaria-ejecutiva/infografias/dia-internacional-contra-la-corrupcion-infografia/</loc>
+<lastmod>2019-12-09T17:01:00-06:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>https://www.seacoahuila.org.mx/cc/datos/directorio-datos-abiertos-cc/</loc>
 <lastmod>2019-03-04T14:24:00-06:00</lastmod>
 <changefreq>daily</changefreq>
@@ -761,7 +768,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://www.seacoahuila.org.mx/cpc/institucional/que-es-el-cpc/</loc>
-<lastmod>2019-04-23T16:55:00-05:00</lastmod>
+<lastmod>2019-12-04T13:32:00-06:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
