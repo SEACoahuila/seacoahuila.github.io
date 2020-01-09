@@ -5,7 +5,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://www.seacoahuila.org.mx/</loc>
-<lastmod>2020-01-06T14:42:12-00:00</lastmod>
+<lastmod>2020-01-09T16:25:04-00:00</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -740,14 +740,21 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://www.seacoahuila.org.mx/cpc/planes/plan-de-trabajo-cpc-2018/</loc>
-<lastmod>2018-02-14T09:00:00-06:00</lastmod>
+<lastmod>2020-01-09T15:40:00-06:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://www.seacoahuila.org.mx/cpc/planes/plan-de-trabajo-cpc-2019/</loc>
-<lastmod>2019-02-20T20:50:00-06:00</lastmod>
+<lastmod>2020-01-09T15:40:00-06:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://www.seacoahuila.org.mx/cpc/planes/plan-de-trabajo-cpc-2020/</loc>
+<lastmod>2020-01-09T15:45:00-06:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
