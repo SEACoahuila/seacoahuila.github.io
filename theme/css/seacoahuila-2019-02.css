@@ -100,13 +100,6 @@ a:visited  { color: #224422; text-decoration: none; }
 /* Pagina inicial comunicados */
 .contenedor-horizontal.inicio-comunicados-redes { background-color: #3B6038; }
 .contenedor-horizontal.inicio-comunicados-redes h1 { color: #3B6038; font-family: 'Montserrat', sans-serif; text-transform: uppercase; font-size: 2.3em; padding: 0 0; font-weight: 800; }
-.contenedor-horizontal .comunicado { background-color: #DFDCD3; }
-.comunicado-interior { width: 90%; margin: 0 auto; }
-.comunicado-interior .contenido { padding: 2em 6em; background-color: white; -webkit-border-radius: 0 0 15px 15px; border-radius: 0 0 15px 15px; }
-.comunicado-interior .imagen-principal { overflow: hidden; margin: 0; }
-.comunicado-interior .imagen-principal img { display: block; width: 100%; -webkit-border-radius: 15px 15px 0 0; border-radius: 15px 15px 0 0; margin: 0 0 -15% 0; }
-.comunicado-interior .contenido h1 { color: #3B6038; }
-.comunicado-interior .contenido p { font-size: 1rem; }
 .comunicados-home { background-color: white; padding: 2.4em 0.8em 2.4em 4em; width: 66%; float: left; border-radius: 15px 0 0 15px; min-height: 1050px; }
 .comunicados-home .comunicado { margin: 0; float: left; }
 .comunicados-home .comunicado .imagen { margin: 2em 0.7em 0.3em 0; float: left; border-right: 10px solid #675E48; width: 220px; height: 220px; overflow: hidden; }
@@ -136,12 +129,12 @@ a:visited  { color: #224422; text-decoration: none; }
 .contenedor-horizontal.bloque-navegacion { background-color: #DFDCD3; padding: 1em 10%; }
 .contenedor-horizontal.bloque-navegacion h4 { color: #697878; font-family: Roboto; font-size: 1.7em; text-transform: inherit; }
 .contenedor-horizontal .nivel { float: left; width: 100%; border-bottom: 1px solid rgba(0, 0, 0, 0.25); margin: 1em 0; }
-.contenedor-horizontal .nivel:last-child { border-bottom:0; }
+.contenedor-horizontal .nivel:last-child { border-bottom: 0; }
 .contenedor-horizontal .links { float: left; width: 100%; padding: 0; }
 .contenedor-horizontal .links li { float: left; padding: 0; list-style-type: none; width: 16.666666%; text-align: center; margin: 0; }
 .contenedor-horizontal .links a { display: block; width: 100%; padding: 0.3em; font-size: 0.8em; min-height: 100px; }
 .contenedor-horizontal .links a:hover { text-decoration: none; background-color: rgba(0, 0, 0, 0.2); }
-.contenedor-horizontal .links .icon { width: 55px;height: 55px;color: white;text-align: center;padding: 0.3em;z-index: 0;font-weight: 100;font-size: 2em;margin: 0.5em auto;}
+.contenedor-horizontal .links .icon { width: 55px; height: 55px; color: white; text-align: center; padding: 0.3em; z-index: 0; font-weight: 100; font-size: 2em; margin: 0.5em auto;}
 .contenedor-horizontal .links p { color: #697878; text-transform: uppercase; }
 
 /* Pagina inicial transparencia */
@@ -158,7 +151,17 @@ a:visited  { color: #224422; text-decoration: none; }
 .contenedor-horizontal .quejasysugerencias a { background-color: #675E48; }
 .transparencia-vinculos { background-color: green; padding: 1.2em; }
 
+/* Indices */
+.index-media-icon { width: 20% !important; height: 20% !important; padding: 0.5em; }
+
 /* Contenido */
+.contenedor-horizontal.comunicado { background-color: #DFDCD3; }
+.comunicado-interior { width: 90%; margin: 0 auto; }
+.comunicado-interior .contenido { padding: 2em 6em; background-color: white; -webkit-border-radius: 0 0 15px 15px; border-radius: 0 0 15px 15px; }
+.comunicado-interior .contenido h1 { color: #3B6038; }
+.comunicado-interior .contenido p { font-size: 1rem; }
+.comunicado-interior .imagen-principal { overflow: hidden; margin: 0; }
+.comunicado-interior .imagen-principal img { display: block; width: 100%; -webkit-border-radius: 15px 15px 0 0; border-radius: 15px 15px 0 0; margin: 0 0 -15% 0; }
 .contenido a { font-weight: bold; }
 
 /* Paginacion */
