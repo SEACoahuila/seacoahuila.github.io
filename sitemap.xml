@@ -5,7 +5,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://www.seacoahuila.org.mx/</loc>
-<lastmod>2020-01-23T22:22:44-00:00</lastmod>
+<lastmod>2020-01-30T20:44:10-00:00</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -790,6 +790,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://www.seacoahuila.org.mx/secretaria-ejecutiva/infografias/sea-coahuila-infografia/</loc>
 <lastmod>2019-05-24T15:00:00-05:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://www.seacoahuila.org.mx/secretaria-ejecutiva/datos/segundo-reporte-estadistico/</loc>
+<lastmod>2020-01-30T14:00:00-06:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
