@@ -5,7 +5,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://www.seacoahuila.org.mx/</loc>
-<lastmod>2020-03-03T15:48:09-00:00</lastmod>
+<lastmod>2020-03-20T12:28:06-00:00</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -851,6 +851,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>https://www.seacoahuila.org.mx/comunicados/2020-03-19-postura-sesaec-covid/</loc>
+<lastmod>2020-03-19T17:00:00-06:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>1</priority>
+</url>
+
+<url>
 <loc>https://www.seacoahuila.org.mx/publicaciones/2019-12-16-retos-perspectiva-rendicion-cuentas/</loc>
 <lastmod>2019-12-16T10:08:00-06:00</lastmod>
 <changefreq>daily</changefreq>
@@ -1433,7 +1440,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://www.seacoahuila.org.mx/category/comunicados.html</loc>
-<lastmod>2019-09-23T17:04:00-06:37</lastmod>
+<lastmod>2020-03-19T17:00:00-06:37</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1441,6 +1448,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://www.seacoahuila.org.mx/category/publicaciones.html</loc>
 <lastmod>2019-12-16T10:08:00-06:37</lastmod>
+<changefreq>hourly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://www.seacoahuila.org.mx/tag/secretaria-ejecutiva.html</loc>
+<lastmod>2020-03-19T17:00:00-06:37</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1455,13 +1469,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://www.seacoahuila.org.mx/tag/azimut.html</loc>
 <lastmod>2019-12-16T10:08:00-06:37</lastmod>
-<changefreq>hourly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://www.seacoahuila.org.mx/tag/secretaria-ejecutiva.html</loc>
-<lastmod>2019-09-23T17:04:00-06:37</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
