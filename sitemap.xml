@@ -5,7 +5,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://www.seacoahuila.org.mx/</loc>
-<lastmod>2020-03-27T17:29:29-00:00</lastmod>
+<lastmod>2020-05-08T12:14:53-00:00</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -851,6 +851,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>https://www.seacoahuila.org.mx/comunicados/2020-05-07-concurso-dibujo-fiscalia/</loc>
+<lastmod>2020-05-07T05:00:00-05:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>1</priority>
+</url>
+
+<url>
 <loc>https://www.seacoahuila.org.mx/comunicados/2020-03-19-postura-sesaec-covid/</loc>
 <lastmod>2020-03-19T17:00:00-06:00</lastmod>
 <changefreq>daily</changefreq>
@@ -1440,7 +1447,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://www.seacoahuila.org.mx/category/comunicados.html</loc>
-<lastmod>2020-03-19T17:00:00-06:37</lastmod>
+<lastmod>2020-05-07T05:00:00-06:37</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1454,7 +1461,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://www.seacoahuila.org.mx/tag/secretaria-ejecutiva.html</loc>
-<lastmod>2020-03-19T17:00:00-06:37</lastmod>
+<lastmod>2020-05-07T05:00:00-06:37</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
