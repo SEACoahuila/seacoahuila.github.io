@@ -25,7 +25,7 @@ a:visited  { color: #224422; text-decoration: none; }
 .sea-bg-green-light { background-color: #CDD7CD; }
 .sea-bg-gray-light  { background-color: #D5CFC9; }
 .sea-bg-gold-dark   { background-color: #6B4C1D; }
-.sea-bg-green-dark  { background-color: #3B6038; }
+.sea-bg-green-dark  { background-color: #3B6038; } /*{ background-color: #ffcd48; } 3B6038*/
 .sea-bg-gray-dark   { background-color: #695E45; }
 
 /* Pagina inicial */
