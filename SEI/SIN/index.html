@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.plot.ly/plotly-2.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
+
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <link id="theme-style" rel="stylesheet" href="../assets/css/styles.css" />
+    <link id="theme-style" rel="stylesheet" href="Document/stylesIND.css" />
+    <!-- ******Header****** -->
+    <header class="header text-center">
+      <div class="container">
+        <div class="branding">
+          <!-- ******Titulo de la página****** -->
+          <h3 class="logo">
+            <img class="text-highlight logosei"  src="../images/Iconos sistemas/logo_SEI.png"
+              
+              
+            />&nbsp;<span class="text-highlight">Sistema&nbsp;</span
+            ><span class="text-bold">Estatal de Información</span>
+          </h3>
+        </div>
+        <!--//branding-->
+      </div>
+      <!--//container-->
+    </header>
+    <!--//header-->
+    
+  </head>
+
+  <body >
+   
+     <h1 >INDICADORES MUNICIPALES</h1>
+
+    <div class="row" style="height:40px; width:100%">
+       <div class="col-3 documentos"> DOCUMENTOS</div>
+       <div class="col-3 documentos"> DOCUMENTOS</div>
+       <div class="col-3 documentos"> DOCUMENTOS</div>
+       <div class="col-3 documentos"> DOCUMENTOS</div>
+      
+       </div>
+ <div class="container ">
+    <div class="row" style="margin-top:100px; ">
+      <div class="container col-md-4 col-sm-12 indicesTXT" id="descripcionindicador" >
+        <h3><img src="../images/Iconos sistemas/11.png" alt=""> Generales:</h3>
+        El sistema estatal de indicadores pretende dkjashdkas jdklasdkjsahsdkj
+        jdlasd
+      </div>
+      <div class="container col-md-6 col-sm-12 ">
+        <div id="myDiv"  ></div>
+      </div>
+    </div>
+</div>
+    
+    <div class="container contenedorindices" >
+    
+    <div class="row" style="margin-top:80px">  <h1 id ="indices" >Indices</h1>
+      <div class="container btn btn-outline-light col-lg-3 col-md-12" id="indicesgenerales">
+         <img src="../images/Iconos sistemas/9.png" alt=""  id="icon""><a href="PEAC/"><h5>Política Estatal Anticorrupción</h5></a>
+      </div>
+       <div class="container btn btn-outline-light  col-lg-3 col-md-12" id="indicesgenerales">
+        <a href="Normatividad"><img src="../images/icons/equilibrar.png"alt="" style="height:40px;"><a href="Normatividad/"><h5>Normatividad</h5></a>
+      </div>
+      <div class="container btn btn-outline-light col-lg-3 col-md-12" id="indicesgenerales">
+         <img src="../images/icons/buscar.png"alt="" style="height:40px;"><a href="Transparencia/"><h5>Transparencia</h5></a>
+      </div>
+      
+       <div class="container btn btn-outline-light  col-lg-3 col-md-12" id="indicesgenerales">
+        <img src="../images/icons/gerrymander.png"alt="" id="icon""><a href="Percepción/"><h5>Impacto Ciudadano</h5></a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="container btn btn-outline-light  col-lg-3 col-md-12" id="indicesgenerales">
+        <img src="../images/Iconos sistemas/logo_SEI.png"alt="" id="icon""><a href="SEI/"><h5>Sistema Estatal de Información</h5></a>
+      </div>
+      <div class="container btn btn-outline-light col-lg-3 col-md-12" id="indicesgenerales">
+         <img src="../images/icons/data-analysis.png" alt=""  id="icon"><a href="Datos Abiertos/"><h5>Datos Abiertos</h5></a>
+      </div>  
+      <div class="container btn btn-outline-light  col-lg-3 col-md-12" id="indicesgenerales">
+        <img src="../images/Iconos sistemas/5.png"alt="" style="height:40px;"><a href="Denuncias/"><h5>Denuncias</h5></a>
+      </div>
+      <div class="container btn btn-outline-light col-lg-3 col-md-12" id="indicesgenerales">
+         <img src="../images/icons/recomendaciones.png" alt=""  id="icon""><a href="Solicitudes/"><h5>Recomendaciónes atendidas</h5></a>
+      </div>  
+      
+      
+    </div>
+    </div>
+   
+     
+
+          
+     <div class="container municipios col-12" >
+      <h1 id ="municipios">Municipios</h1>
+      <div class="container">
+      <form > 
+      <div class="input-group mb-3">
+
+       <label class="input-group-text" for="framework">Selecciona un Municipio:</label> 
+              
+       <select class="form-select" name="provincia" id="provincia">
+                    
+       </select>
+      </form>
+    </div>
+
+      
+    
+    <div class="container "> <h3>Indicadores por Municipio</h3>
+
+    <div id="myDiv2" style="height:700px; margin:70px" ></div>
+    </div></div> </div>
+    <script src="../assets/js/js2.js"> </script>
+    <script src="../assets/js/Js3.js"> </script>
+
+    <footer class="footer text-center ">
+      <div class="container">
+          <small class="copyright">Secretaría Ejecutiva del Sistema Anticorrupción del Estado de Coahuila de
+              Zaragoza</small>
+      </div>
+      <!--//container-->
+  </footer>
+  
+  <!--//footer-->
+  </body>
+
+      <!--//container-->
+  </footer>
+</html>
