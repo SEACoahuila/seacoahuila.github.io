@@ -156,7 +156,7 @@ var Normatividad = {
   };
 
   var layoutP = {
-    title: 'Percepción de corrupción 0% - 100%',
+    title: 'Impacto ciudadano 0% - 100%',
     font: {size: 15},
     margin: {l: 175, r: 80, b: 20, t:40},
     xaxis: {range: [0, 100]},

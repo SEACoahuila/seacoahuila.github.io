@@ -5,7 +5,7 @@ var layout = {
   margin: {l: 0, r: 0, b: 0, t:0},
   sunburstcolorway:[
     "#EA5395","#41b2ec","#00cc96","#ab63fa","#f77b6b",
-    "#e763fa", "#FECB52","#FFA15A","#FF6692","#B6E880"
+    "#e763fa", "#FECB52","#B6E880","#FF6692","#FFA15A"
   ],
   plot_bgcolor:"black",
   paper_bgcolor:"#FFF3",

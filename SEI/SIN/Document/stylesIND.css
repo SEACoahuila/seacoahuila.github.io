@@ -18,11 +18,11 @@
   .logosei { 
     
     height: 62px;
-    width:  52px;}
+    }
   
   
   #descripcionindicador {
-    background-color: #f3f0f9;
+    background-color: aliceblue;
     padding: 8%;
     border-radius: 50px 50px 50px 50px;
     text-align: justify;
@@ -43,12 +43,12 @@
     align-items: center;
     margin-top: 40px;
     height: 100px;
-    
   }
-  h1 {
+  .tituloh1 {
     text-align: center;
     padding: 20px;
     background-color:rgba(6, 162, 173, 0.548); height:80px; color: white;
+    font-size:1.8em;
     
   }
   .documentos {
@@ -57,6 +57,7 @@
   justify-content: center; 
   border: 2px solid white;
   align-items: center;
+  
   }
   #icon {
     height:50px;
@@ -76,7 +77,10 @@
     background-color:#8a0a4e;
     border-radius: 50px 50px 0px 0px;
   }
-
-  #indices{
-
+  a {
+    color: rgb(53, 48, 49); font-family: arial; text-decoration: none;
   }
+
+#icon2 {
+  height:40px;
+}

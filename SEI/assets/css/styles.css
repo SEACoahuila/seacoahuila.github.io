@@ -1468,3 +1468,21 @@ select {
     width: 560px;
   }
 }
+
+.documentos {
+  background-color:aliceblue;
+  display: flex;
+  justify-content: center; 
+  border: 2px solid white;
+  align-items: center;
+  
+  }
+  .documentation {
+    height:40px; width:100%; margin-top: 5px; margin-left: .3px;
+  }
+  a {
+    color: rgb(53, 48, 49); font-family: arial; text-decoration: none;
+  }
+  #icon2 {
+    height:33px;
+  }
