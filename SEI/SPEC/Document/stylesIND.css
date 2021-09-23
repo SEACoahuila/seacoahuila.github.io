@@ -1,0 +1,108 @@
+.indices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40%;
+  }
+
+  .indicesTXT {
+    padding: 0px;
+    text-align: justify;
+    margin-top: 20px;
+   
+  }
+  h3 {
+    text-align: center;
+    margin-top: 40px;
+    /*border-bottom: 10px solid gray;*/
+  }
+  .logosei { 
+    
+    height: 62px;
+    }
+  
+  
+  #descripcionindicador {
+    background-color: aliceblue;
+    padding: 8%;
+    border-radius: 50px 50px 50px 50px !important; 
+    text-align: justify;
+    
+  }
+  .btn-outline-light {
+      color:#7e727b;
+      
+  }
+  .btn-outline-light:hover {
+     background-color:#f3f0f9;
+  }
+
+  #indicesgenerales {
+    border-radius: 50px 50px 50px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    height: 100px;
+    
+  }
+ .tituloh1 {
+    text-align: center;
+    padding: 20px;
+    background-color:rgba(42, 101, 124, 0.87); height:80px; color: white;
+    font-size:1.8em ;
+    
+  }
+  .documentos {
+  background-color:aliceblue;
+  display: flex;
+  justify-content: center; 
+  border: 2px solid white;
+  align-items: center;
+  
+  }
+  #icon {
+    height:50px;
+  }
+
+  .contenedorindices{
+    background-color:aliceblue;border-radius: 50px 50px 20px 20px;
+  }
+  .municipios{
+   margin-top:80px;
+   border-radius: 50px 50px 20px 20px;
+   background-color:#f9f8f0;
+   padding: 0px;
+  }
+
+  #municipios{
+    background-color:#2a657c;
+    border-radius: 50px 50px 0px 0px;
+  }
+
+  #portada {
+    height:300px;
+        
+  }
+  
+  .indicesTXT2{
+    padding: 0px;
+    
+    margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;}
+
+  a {
+    color: rgb(53, 48, 49); font-family: arial; text-decoration: none;
+  }
+
+#icon2 {
+  height:40px;
+}
+.consulta{
+  margin: 20px;
+}
+.form-horizontal {
+  margin-top: 40px;
+}
