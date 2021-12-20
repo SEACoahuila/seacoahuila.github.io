@@ -5,7 +5,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://www.seacoahuila.org.mx/</loc>
-<lastmod>2021-11-30T14:11:38-00:00</lastmod>
+<lastmod>2021-12-20T12:03:18-00:00</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -879,6 +879,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>https://www.seacoahuila.org.mx/comunicados/2021-boletin-XII-sesion-ordinaria/</loc>
+<lastmod>2021-12-16T15:12:00-06:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>1</priority>
+</url>
+
+<url>
 <loc>https://www.seacoahuila.org.mx/comunicados/2021-boletin-XI-sesion-ordinaria/</loc>
 <lastmod>2021-11-30T15:12:00-06:00</lastmod>
 <changefreq>daily</changefreq>
@@ -1538,7 +1545,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://www.seacoahuila.org.mx/category/comunicados.html</loc>
-<lastmod>2021-11-30T15:12:00-06:37</lastmod>
+<lastmod>2021-12-16T15:12:00-06:37</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1552,21 +1559,21 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://www.seacoahuila.org.mx/tag/comite-coordinador.html</loc>
-<lastmod>2021-11-30T15:12:00-06:37</lastmod>
+<lastmod>2021-12-16T15:12:00-06:37</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://www.seacoahuila.org.mx/tag/organo-de-gobierno.html</loc>
-<lastmod>2021-11-30T15:12:00-06:37</lastmod>
+<lastmod>2021-12-16T15:12:00-06:37</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://www.seacoahuila.org.mx/tag/sesiones.html</loc>
-<lastmod>2021-11-30T15:12:00-06:37</lastmod>
+<lastmod>2021-12-16T15:12:00-06:37</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
