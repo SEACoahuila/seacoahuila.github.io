@@ -150,7 +150,8 @@ a:visited  { color: #224422; text-decoration: none; }
 .contenedor-horizontal .transparencia a { background-color: #DEA200; }
 .contenedor-horizontal .quejasysugerencias a { background-color: #675E48; }
 .transparencia-vinculos { background-color: green; padding: 1.2em; }
-
+.contenedor-horizontal .comisionejecutiva a { background-color: #D6144F; }
+.contenedor-horizontal .comisionejecutiva { float: left; width: 30%; margin: 1em 0.3em; background-color: white; border-radius: 15px; padding: 1em; min-height: 230px; }
 /* Indices */
 .index-media-icon { width: 20% !important; height: 20% !important; padding: 0.5em; }
 
