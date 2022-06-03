@@ -5,7 +5,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://www.seacoahuila.org.mx/</loc>
-<lastmod>2022-06-02T15:15:16-00:00</lastmod>
+<lastmod>2022-06-03T10:16:51-00:00</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -879,6 +879,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>https://www.seacoahuila.org.mx/comunicados/2022-06-02-ganadores-concurso-dibujo/</loc>
+<lastmod>2022-06-02T23:00:00-05:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>1</priority>
+</url>
+
+<url>
 <loc>https://www.seacoahuila.org.mx/comunicados/2022-boletin-V-sesion-ordinaria/</loc>
 <lastmod>2022-05-27T14:42:00-05:00</lastmod>
 <changefreq>daily</changefreq>
@@ -1587,7 +1594,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://www.seacoahuila.org.mx/category/comunicados.html</loc>
-<lastmod>2022-05-27T14:42:00-06:37</lastmod>
+<lastmod>2022-06-02T23:00:00-06:37</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1595,6 +1602,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://www.seacoahuila.org.mx/category/publicaciones.html</loc>
 <lastmod>2019-12-16T10:08:00-06:37</lastmod>
+<changefreq>hourly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://www.seacoahuila.org.mx/tag/secretaria-ejecutiva.html</loc>
+<lastmod>2022-06-02T23:00:00-06:37</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1616,13 +1630,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://www.seacoahuila.org.mx/tag/sesiones.html</loc>
 <lastmod>2022-05-27T14:42:00-06:37</lastmod>
-<changefreq>hourly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://www.seacoahuila.org.mx/tag/secretaria-ejecutiva.html</loc>
-<lastmod>2022-05-02T16:30:00-06:37</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
