@@ -25,7 +25,7 @@ var f=new Date();
 let month = f.getMonth() + 1
 let day = "01"
  if (month === 10) {
-    day = "05"
+    day = "04"
  } else if (month === 1 ){
     day = "02"
  } else if (month === 4 ){
