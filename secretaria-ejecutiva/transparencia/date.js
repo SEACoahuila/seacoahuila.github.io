@@ -34,7 +34,7 @@ let day = "01"
     day = "02"
  } 
 
-let fechaCompleta = (" Fecha de última actualización: " + day + " de " + meses[f.getMonth()] + " del " + f.getFullYear());
+let fechaCompleta = (" Fecha de última actualización : " + day + " de " + meses[f.getMonth()] + " del " + f.getFullYear());
 
 	document.getElementById("date").textContent += fechaCompleta
 
