@@ -5,7 +5,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://www.seacoahuila.org.mx/</loc>
-<lastmod>2023-01-26T16:13:01-00:00</lastmod>
+<lastmod>2023-01-27T11:50:00-00:00</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -417,7 +417,14 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://www.seacoahuila.org.mx/secretaria-ejecutiva/transparencia/art-21-52-otra-informacion/</loc>
+<loc>https://www.seacoahuila.org.mx/secretaria-ejecutiva/transparencia/art-21-52-informe-de-resultados/</loc>
+<lastmod>2019-01-31T16:22:00-06:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://www.seacoahuila.org.mx/secretaria-ejecutiva/transparencia/art-21-53-otra-informacion/</loc>
 <lastmod>2019-01-31T16:22:00-06:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
