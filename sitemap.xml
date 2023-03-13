@@ -5,7 +5,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://www.seacoahuila.org.mx/</loc>
-<lastmod>2023-03-03T10:29:06-00:00</lastmod>
+<lastmod>2023-03-13T14:06:58-00:00</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -571,6 +571,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>https://www.seacoahuila.org.mx/secretaria-ejecutiva/capacitacion/capacitacion-municipios-2023/</loc>
+<lastmod>2023-03-13T12:00:00-06:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>https://www.seacoahuila.org.mx/cc/infografias/cc-infografia/</loc>
 <lastmod>2019-03-28T17:30:00-06:00</lastmod>
 <changefreq>daily</changefreq>
@@ -883,6 +890,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <lastmod>2018-05-21T13:33:00-05:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://www.seacoahuila.org.mx/comunicados/2023-03-13-capacitacion-municipios/</loc>
+<lastmod>0202-03-13T13:00:00-06:37</lastmod>
+<changefreq>daily</changefreq>
+<priority>1</priority>
 </url>
 
 <url>
@@ -1636,7 +1650,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://www.seacoahuila.org.mx/category/comunicados.html</loc>
-<lastmod>2022-10-04T14:42:00-06:37</lastmod>
+<lastmod>2023-03-13T12:00:00-06:37</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1644,6 +1658,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://www.seacoahuila.org.mx/category/publicaciones.html</loc>
 <lastmod>2019-12-16T10:08:00-06:37</lastmod>
+<changefreq>hourly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://www.seacoahuila.org.mx/tag/secretaria-ejecutiva.html</loc>
+<lastmod>2023-03-13T12:00:00-06:37</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1665,13 +1686,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://www.seacoahuila.org.mx/tag/sesiones.html</loc>
 <lastmod>2022-10-04T14:42:00-06:37</lastmod>
-<changefreq>hourly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://www.seacoahuila.org.mx/tag/secretaria-ejecutiva.html</loc>
-<lastmod>2022-06-03T23:00:00-06:37</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
