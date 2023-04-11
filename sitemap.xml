@@ -5,11 +5,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://www.seacoahuila.org.mx/</loc>
-<<<<<<< HEAD
-<lastmod>2023-04-11T10:03:59-00:00</lastmod>
-=======
-<lastmod>2023-03-16T00:50:45-00:00</lastmod>
->>>>>>> 584611003d1854db884d59d12e6ab9f8863d388a
+<lastmod>2023-04-11T11:30:20-00:00</lastmod>
 <changefreq>hourly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -905,11 +901,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://www.seacoahuila.org.mx/comunicados/2023-03-13-capacitacion-municipios/</loc>
-<<<<<<< HEAD
 <lastmod>202-03-13T13:00:00-06:37</lastmod>
-=======
-<lastmod>0202-03-13T13:00:00-06:37</lastmod>
->>>>>>> 584611003d1854db884d59d12e6ab9f8863d388a
 <changefreq>daily</changefreq>
 <priority>1</priority>
 </url>
